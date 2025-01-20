@@ -1,0 +1,29 @@
+Decision-maker brief
+	- MoA less developed than MoH
+	- Animal and human health surveillance not unified
+	- Animal health - public service and private service 
+	- Before devolution, it was component of central government and there was someone to look after that 
+	- Private sector came in to help
+	- Everyone operating separately 
+	- 2018 - Kenyan Animal Biosurveillance System (KABS)
+	- Put their own data into KABS 
+	- All practioners record events into this 
+	- Not been picked up by everyone 
+	- Reporting low
+	- People take their pets to private clinics but they don't report to KABS
+	- Research institutions also have different 
+	- Data cleaning & analysis not automated 
+	- Having a dashboard where can interpret the data from different sources 
+	- Give a comprehensive view of animal health in Kenya
+	- These data are used for decision-making 
+
+
+Discussion
+	- Is there an API for KABS?
+		○ Typically download & analyse, unclear if there is an API
+	- Will show us front and back end 
+	- Have KABS data, but can get the other data 
+	- KABS undergoing changes 
+	- Labs have their own system 
+	- Does KABS allow data import? - not right now but working on currently 
+	- Animal health data more event based than surveillance 
