@@ -7,3 +7,4 @@ Our tasks this week are the following:
 * Create a centralised database that reads in data from KABS and other sources (Anne, Ruth).
 * Draft a dashboard to display these data, with a particular focus on prioirity diseases, transmission chains, cases and location of the reports (Ryan, Arani).
 
+Further details are provided in Notes folder.
