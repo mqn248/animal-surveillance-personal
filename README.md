@@ -5,6 +5,6 @@ The Ministry of Agriculture, Livestock and Development (MoA) want to have a cent
 Our tasks this week are the following:
 * Automate data cleaning for all input data sources (Anne, Ruth).
 * Create a centralised database that reads in data from KABS and other sources (Anne, Ruth).
-* Draft a dashboard to display these data, with a particular focus on prioirity diseases, transmission chains, cases and location of the reports (Ryan, Arani).
+* Draft a dashboard to display these data, to track outbreak frequency over time(Month)- Demo dataset provided, with a particular focus on prioirity diseases, transmission chains, cases[outbreaks]- Number at Risk, Death,Sick, Destrroyed,Slaughtered and location of the reports - Disease hotspt across counties in Kenya (Ryan, Arani).
 
 Further details are provided in Notes folder.
