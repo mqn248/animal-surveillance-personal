@@ -1,0 +1,127 @@
+/* General styles for content areas */
+.content-wrapper, .right-side, .main-header {
+    background-color: white !important;
+}
+
+.skin-blue .main-header {
+    background-color: white !important;
+    border-bottom: 1px solid #d2d6de !important;
+    margin-bottom: 0 !important; /* Set margin-bottom to zero */
+}
+
+.skin-blue .main-header .navbar {
+    background-color: white !important;
+}
+
+.skin-blue .main-header .navbar .navbar-toggle {
+    color: black !important;
+    margin-left: 0px !important;
+}
+
+.skin-blue .main-header .navbar .navbar-brand {
+    color: black !important;
+}
+
+.skin-blue .sidebar-menu > li > a {
+    color: black !important;
+}
+
+.skin-blue .sidebar-menu li:hover > a,
+.skin-blue .sidebar-menu li.active > a {
+    background-color: #3daae8 !important;
+    color: white !important; /* Text color for active and hovered items */
+}
+
+.skin-blue .sidebar-menu li:not(.active):hover > a {
+    background-color: #3daae8 !important;
+    color: white !important; /* Text color for hovered items */
+}
+
+.skin-blue .sidebar-toggle {
+    color: black !important;
+}
+
+.skin-blue .sidebar-toggle:hover,
+.skin-blue .sidebar-toggle:focus {
+    background-color: #d2d6de !important;
+}
+
+/* Adjust margins */
+.skin-blue .main-sidebar {
+    margin-right: 10px !important; /* Adjust margin-right */
+    margin-left: 10px !important; /* Adjust margin-left */
+}
+
+.skin-blue .main-header,
+.skin-blue .main-sidebar,
+.skin-blue .left-side,
+.skin-blue .wrapper {
+    background-color: white !important;
+    margin-top: 0 !important; /* Set margin-top to zero */
+    margin-bottom: 0 !important; /* Set margin-bottom to zero */
+}
+
+.skin-blue .main-header .logo {
+    background-color: white !important;
+    color: black !important;
+}
+
+.skin-blue .main-header .logo:hover {
+    background-color: white !important;
+}
+
+.skin-blue .main-header {
+    border-bottom: none !important;
+}
+
+.sidebar-toggle {
+    position: absolute;
+    left: 0;
+}
+
+.dropdown-menu {
+    z-index: 10000 !important;
+}
+
+.treeview-menu {
+    background-color: white !important;
+}
+
+.skin-blue .treeview-menu li a {
+    color: black !important;
+}
+
+.skin-blue .treeview-menu li:hover > a {
+    background-color: #3daae8 !important;
+    color: white !important; /* Text color for hovered items in treeview menu */
+}
+
+/* Main menu item hover effect (before submenu is clicked) */
+.skin-blue .sidebar-menu > li:not(.menu-open):hover > a {
+    background-color: #d2d6de !important; /* Light hover effect for main menu */
+    color: black !important;
+}
+
+/* Submenu hover effect */
+.skin-blue .treeview-menu > li:hover > a {
+    background-color: #3daae8 !important; /* Blue hover effect for submenu */
+    color: white !important;
+}
+
+/* Prevent parent menu item hover when submenu is clicked */
+.skin-blue .sidebar-menu > li.menu-open > a {
+    background-color: white !important; /* Keep parent menu item background white when submenu is open */
+    color: black !important;
+}
+
+/* Active submenu item style (after it's clicked) */
+.skin-blue .treeview-menu > li.active > a {
+    background-color: #3daae8 !important; /* Active submenu stays blue */
+    color: white !important;
+}
+
+/* Ensure main menu item does not react to hover if submenu is open */
+.skin-blue .sidebar-menu > li.menu-open:hover > a {
+    background-color: white !important; /* Prevent main menu hover when submenu is open */
+    color: black !important;
+}

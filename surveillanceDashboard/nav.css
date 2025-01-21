@@ -1,0 +1,84 @@
+ul.nav-pills {
+    display: flex !important;
+    justify-content: center !important;
+    font-size: 18px; /* Adjust font size */
+    font-weight: bold; /* Adjust font weight */
+    margin-top: 10px;
+    background: #3daae8; /* Background color for the tab */
+}
+
+.nav-pills > li > a {
+    color: #fff; /* Default text color for tabs */
+}
+
+.nav-pills > li.active > a {
+    background-color: #fff !important; /* Background color for active tab */
+    color: black !important; /* Text color for active tab */
+}
+
+/* Change text color on hover */
+.nav-pills > li > a:hover {
+    color: #333; /* Change color on hover */
+}
+a {
+    cursor: pointer; /* Change cursor style for links */
+}
+
+/* Styling the tabset by its ID */
+#pills_tabset {
+    display: block !important;
+    justify-content: initial !important;
+    font-size: initial;
+    font-weight: normal;
+    color: inherit;
+    margin-top: 0;
+    background: #fff; /* Background color for the tabset */
+}
+
+/* Targeting the list items and their links */
+#pills_tabset > li > a {
+    color: #333; /* Default text color for tabs */
+}
+
+/* Optional: Adding hover state for the links */
+#pills_tabset > li > a:hover {
+    color: #333; /* Change to your desired hover color */
+}
+
+/* Active tab styling */
+#pills_tabset > li.active > a {
+    background-color: #3daae8 !important; /* Active tab background */
+    color: #fff !important; /* Active tab text color */
+}
+
+/* Style the dropdown menu */
+.dropdown-menu {
+  background-color: white; /* Background color for the dropdown menu */
+  color: black; /* Default text color for dropdown items */
+}
+
+/* Style the items in the dropdown menu */
+.dropdown-menu > li > a {
+  color: black; /* Default text color for dropdown items */
+  padding: 10px 15px; /* Add padding for better click area */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Style the items when hovered */
+.dropdown-menu > li > a:hover {
+  background-color: #3daae8 !important; /* Background color on hover */
+  color: white !important; /* Text color on hover */
+}
+
+/* Style the selected item */
+.dropdown-menu > li.active > a,
+.dropdown-menu > li.active:hover > a {
+  background-color: #3daae8 !important; /* Background color for selected item */
+  color: white !important; /* Text color for selected item */
+}
+
+/* Adjust the toggle button if needed */
+a[data-toggle="dropdown"] {
+  color: black; /* Toggle button text color */
+}
+
