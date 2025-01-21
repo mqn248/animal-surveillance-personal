@@ -43,6 +43,8 @@ class animal_health(db.Model):
     Number_Humans_Affected_zoonosis = db.Column(db.String)
     Disease_Control_Method = db.Column(db.String)
     Number_Vaccinated = db.Column(db.Integer)
+    Organisation_GOK_Private = db.Column(db.String)
+    Source = db.Column(db.String)
 
 if __name__ == '__main__':
     app.run(debug=True)
