@@ -8,3 +8,9 @@ Our tasks this week are the following:
 * Draft a dashboard to display these data, to track outbreak frequency over time(Month)- Demo dataset provided, with a particular focus on prioirity diseases, transmission chains, cases[outbreaks]- Number at Risk, Death,Sick, Destrroyed,Slaughtered and location of the reports - Disease hotspt across counties in Kenya (Ryan, Arani).
 
 Further details are provided in Notes folder.
+
+Plan for Tuesday:
+* Onboard Brian to the family.
+* Anne and Ryan to demo what they have worked on so far.
+* Anne, Brian and Ruth to advance data cleaning in conjunction with decision-makers.
+* Ryan and Arani to work on dashboard.
