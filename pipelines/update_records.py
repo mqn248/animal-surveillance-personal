@@ -65,7 +65,7 @@ def clean_pipeline(file_path, sheet_name=0, rename_columns=None, drop_duplicates
     if drop_duplicates:
         animal_records.drop_duplicates(inplace=True)
 
-    # Remove trailing white spaces from colnmaes
+    # Remove trailing white spaces from colnames
     animal_records.columns = animal_records.columns.str.strip()  
     animal_records = animal_records.applymap(lambda x: x.strip() if isinstance(x, str) else x)  
    
