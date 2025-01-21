@@ -21,6 +21,7 @@ Decision-maker brief
 Discussion
 	- Is there an API for KABS?
 		○ Typically download & analyse, unclear if there is an API
+		○ There is an API for new KABS but hosting is ongoing
 	- Will show us front and back end 
 	- Have KABS data, but can get the other data 
 	- KABS undergoing changes 
