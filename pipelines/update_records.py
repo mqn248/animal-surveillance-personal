@@ -24,12 +24,12 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
 # set file path and sheet name 
-file_path = 'D:/CEMA PROJECTS/animalHealthSurveillance/animal-surveillance/dummy_data/animal_data.xlsx' 
-sheet_name = 'Cleaned'  
+file_path = 'D:/CEMA PROJECTS/animalHealthSurveillance/animal-surveillance/dummy_data/animal_data2.xlsx' 
+sheet_name = 'Sheet1'  
 rename_col = {'Sub-County': 'Sub_County', 
             #'sub location': 'Sub_Location',
             'Date of Start of Outbreak/Event':'Start_Outbreak_Event',
-            'Date of Report':'Report_Date','Disease/Condition':'Disease_Condition',
+            'Date Report':'Report_Date','Disease/ Condition':'Disease_Condition',
             'Nature of Diagnosis':'Nature_of_Diagnosis', 'Test Used':'Test_Used',
             'Species Affected':'Species_Affected','Number at Risk':'Number_at_Risk',
             'Number Sick':'Number_Sick', 'Number Dead':'Number_Dead','Number Slaughtered':'Number_Slaughtered',
@@ -65,7 +65,7 @@ def clean_pipeline(file_path, sheet_name=0, rename_columns=None, drop_duplicates
     if drop_duplicates:
         animal_records.drop_duplicates(inplace=True)
 
-    # Remove trailing white spaces from colnmaes
+    # Remove trailing white spaces from colnames
     animal_records.columns = animal_records.columns.str.strip()  
     animal_records = animal_records.applymap(lambda x: x.strip() if isinstance(x, str) else x)  
    
@@ -104,7 +104,6 @@ def populate_animal_data():
                 animals.Report_Date = row['Report_Date'] 
                 animals.Disease_Condition = row['Disease_Condition'] 
                 animals.Nature_of_Diagnosis = row['Nature_of_Diagnosis'] 
-                #animals.Test_Used = row['Test_Used'] 
                 animals.Species_Affected = row['Species_Affected'] 
                 animals.Number_at_Risk = row['Number_at_Risk'] 
                 animals.Number_Sick = row['Unit_cost'] 
@@ -115,10 +114,12 @@ def populate_animal_data():
                 animals.Number_Humans_Affected_zoonosis = row['Number_Humans_Affected_zoonosis'] 
                 animals.Disease_Control_Method = row['Disease_Control_Method'] 
                 animals.Number_Vaccinated = row['Number_Vaccinated'] 
+                animals.Organisation_GOK_Private = row['Organisation_GOK_Private']
+                animals.Source = row['Source']
                 print(f"Updated existing animal record: {animals.Disease_Condition}, {animals.County}")
             else:
                 # Insert as new records
-                animals = animals(
+                animals = animal_health(
                     County = row['County'],
                     Sub_County = row['Sub_County'],
                     Ward = row['Ward'],
@@ -129,7 +130,6 @@ def populate_animal_data():
                     Report_Date = row['Report_Date'] ,
                     Disease_Condition = row['Disease_Condition'] ,
                     Nature_of_Diagnosis = row['Nature_of_Diagnosis'] ,
-                    #Test_Used = row['Test_Used'] ,
                     Species_Affected = row['Species_Affected'] ,
                     Number_at_Risk = row['Number_at_Risk'] ,
                     Number_Sick = row['Number_Sick'] ,
@@ -140,6 +140,8 @@ def populate_animal_data():
                     Number_Humans_Affected_zoonosis = row['Number_Humans_Affected_zoonosis'] ,
                     Disease_Control_Method = row['Disease_Control_Method'] ,
                     Number_Vaccinated = row['Number_Vaccinated'] ,
+                    Organisation_GOK_Private = row['Organisation_GOK_Private'],
+                    Source = row['Source']
                 )
                 session.add(animals)
                 print(f"Added new condition: {animals.Disease_Condition}, {animals.County}")
