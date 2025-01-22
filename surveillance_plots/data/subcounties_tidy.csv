@@ -1,308 +1,309 @@
-"","county","subcounty"
-"1","Baringo","Baringo Central"
-"2","Bomet","Bomet Central"
-"3","Bungoma","Bumula"
-"4","Busia","Budalangi"
-"5","Elgeyo-Marakwet","Keiyo North"
-"6","Embu","Manyatta"
-"7","Garissa","Daadab"
-"8","Homa Bay","Homabay Town"
-"9","Isiolo","Isiolo"
-"10","Kajiado","Isinya"
-"11","Kakamega","Butere"
-"12","Kericho","Ainamoi"
-"13","Kiambu","Gatundu North"
-"14","Kilifi","Ganze"
-"15","Kirinyaga","Kirinyaga Central"
-"16","Kisii","Kitutu Chache North"
-"17","Kisumu","Kisumu Central"
-"18","Kitui","Kitui West"
-"19","Kwale","Kinango"
-"20","Laikipia","Laikipia Central"
-"21","Lamu","Lamu East"
-"22","Machakos","Kathiani"
-"23","Makueni","Kaiti"
-"24","Mandera","Banissa"
-"25","Marsabit","Laisamis"
-"26","Meru","Buuri"
-"27","Migori","Awendo"
-"28","Mombasa","Changamwe"
-"29","Murang’a","Gatanga"
-"30","Nairobi","Dagoretti North"
-"31","Nakuru","Bahati"
-"32","Nandi","Aldai"
-"33","Narok","Narok East"
-"34","Nyamira","Borabu"
-"35","Nyandarua","Kinangop"
-"36","Nyeri","Kieni East"
-"37","Samburu","Samburu East"
-"38","Siaya","Alego Usonga"
-"39","Taita-Taveta","Mwatate"
-"40","Tana River","Tana Delta"
-"41","Tharaka-Nithi","Tharaka North"
-"42","Trans-Nzoia","Cherangany"
-"43","Turkana","Loima"
-"44","Uasin Gishu","Ainabkoi"
-"45","Vihiga","Emuhaya"
-"46","Wajir","Eldas"
-"47","West Pokot","Central Pokot"
-"48","Baringo"," Baringo North"
-"49","Bomet"," Bomet East"
-"50","Bungoma"," Kabuchai"
-"51","Busia"," Butula"
-"52","Elgeyo-Marakwet"," Keiyo South"
-"53","Embu"," Mbeere North"
-"54","Garissa"," Fafi"
-"55","Homa Bay"," Kabondo"
-"56","Isiolo"," Merti"
-"57","Kajiado"," Kajiado Central"
-"58","Kakamega"," Kakamega Central"
-"59","Kericho"," Belgut"
-"60","Kiambu"," Gatundu South"
-"61","Kilifi"," Kaloleni"
-"62","Kirinyaga"," Kirinyaga East"
-"63","Kisii"," Kitutu Chache South"
-"64","Kisumu"," Kisumu East"
-"65","Kitui"," Kitui Central"
-"66","Kwale"," Lunga Lunga"
-"67","Laikipia"," Laikipia East"
-"68","Lamu"," Lamu West"
-"69","Machakos"," Machakos Town"
-"70","Makueni"," Kibwezi West"
-"71","Mandera"," Lafey"
-"72","Marsabit"," Moyale"
-"73","Meru"," Igembe Central"
-"74","Migori"," Kuria East"
-"75","Mombasa"," Jomvu"
-"76","Murang’a"," Kahuro"
-"77","Nairobi"," Dagoretti South"
-"78","Nakuru"," Gilgil"
-"79","Nandi"," Chesumei"
-"80","Narok"," Narok North"
-"81","Nyamira"," Manga"
-"82","Nyandarua"," Kipipiri"
-"83","Nyeri"," Kieni West"
-"84","Samburu"," Samburu North"
-"85","Siaya"," Bondo"
-"86","Taita-Taveta"," Taveta"
-"87","Tana River"," Tana River"
-"88","Tharaka-Nithi"," Tharaka South"
-"89","Trans-Nzoia"," Endebess"
-"90","Turkana"," Turkana Central"
-"91","Uasin Gishu"," Kapseret"
-"92","Vihiga"," Hamisi"
-"93","Wajir"," Tarbaj"
-"94","West Pokot"," North Pokot"
-"95","Baringo"," Baringo South"
-"96","Bomet"," Chepalungu"
-"97","Bungoma"," Kanduyi"
-"98","Busia"," Funyula"
-"99","Elgeyo-Marakwet"," Marakwet East"
-"100","Embu"," Mbeere South"
-"101","Garissa"," Garissa Township"
-"102","Homa Bay"," Karachwonyo"
-"103","Isiolo"," Garbatulla"
-"104","Kajiado"," Kajiado North"
-"105","Kakamega"," Kakamega East"
-"106","Kericho"," Bureti"
-"107","Kiambu"," Githunguri"
-"108","Kilifi"," Kilifi North"
-"109","Kirinyaga"," Kirinyaga West"
-"110","Kisii"," Nyaribari Masaba"
-"111","Kisumu"," Kisumu West"
-"112","Kitui"," Kitui Rural"
-"113","Kwale"," Msambweni"
-"114","Laikipia"," Laikipia North"
-"115","Machakos"," Masinga"
-"116","Makueni"," Kibwezi East"
-"117","Mandera"," Mandera East"
-"118","Marsabit"," North Horr"
-"119","Meru"," Igembe North"
-"120","Migori"," Kuria West"
-"121","Mombasa"," Kisauni"
-"122","Murang’a"," Kandara"
-"123","Nairobi"," Embakasi Central"
-"124","Nakuru"," Kuresoi North"
-"125","Nandi"," Emgwen"
-"126","Narok"," Narok South"
-"127","Nyamira"," Masaba North"
-"128","Nyandarua"," Ndaragwa"
-"129","Nyeri"," Mathira East"
-"130","Samburu"," Samburu West"
-"131","Siaya"," Gem"
-"132","Taita-Taveta"," Voi"
-"133","Tana River"," Tana North"
-"134","Tharaka-Nithi"," Chuka"
-"135","Trans-Nzoia"," Kiminini"
-"136","Turkana"," Turkana East"
-"137","Uasin Gishu"," Kesses"
-"138","Vihiga"," Luanda"
-"139","Wajir"," Wajir East"
-"140","West Pokot"," Pokot South"
-"141","Baringo"," Eldama Ravine"
-"142","Bomet"," Konoin"
-"143","Bungoma"," Kimilil"
-"144","Busia"," Nambele"
-"145","Elgeyo-Marakwet"," Marakwet West"
-"146","Embu"," Runyenjes"
-"147","Garissa"," Hulugho"
-"148","Homa Bay"," Kasipul"
-"149","Kajiado"," Loitokitok"
-"150","Kakamega"," Kakamega North"
-"151","Kericho"," Kipkelion East"
-"152","Kiambu"," Juja"
-"153","Kilifi"," Kilifi South"
-"154","Kirinyaga"," Mwea East"
-"155","Kisii"," Nyaribari Chache"
-"156","Kisumu"," Muhoroni"
-"157","Kitui"," Kitui South"
-"158","Kwale"," Matuga"
-"159","Laikipia"," Laikipia West"
-"160","Machakos"," Matungulu"
-"161","Makueni"," Kilome"
-"162","Mandera"," Mandera North"
-"163","Marsabit"," Saku"
-"164","Meru"," Igembe South"
-"165","Migori"," Mabera"
-"166","Mombasa"," Likoni"
-"167","Murang’a"," Kangema"
-"168","Nairobi"," Embakasi East"
-"169","Nakuru"," Kuresoi South"
-"170","Nandi"," Mosop"
-"171","Narok"," Narok West"
-"172","Nyamira"," Nyamira North"
-"173","Nyandarua"," Ol-Kalou"
-"174","Nyeri"," Mathira West"
-"175","Siaya"," Rarieda"
-"176","Taita-Taveta"," Wundanyi"
-"177","Tana River"," Galedyertu"
-"178","Tharaka-Nithi"," Igambango’mbe"
-"179","Trans-Nzoia"," Kwanza"
-"180","Turkana"," Turkana North"
-"181","Uasin Gishu"," Moiben"
-"182","Vihiga"," Sabatia"
-"183","Wajir"," Wajir North"
-"184","West Pokot"," West Pokot"
-"185","Baringo"," Mogotio"
-"186","Bomet"," Sotik"
-"187","Bungoma"," Mt Elgon"
-"188","Busia"," Teso North"
-"189","Garissa"," Ijara"
-"190","Homa Bay"," Mbita"
-"191","Kajiado"," Mashuuru"
-"192","Kakamega"," Kakamega South"
-"193","Kericho"," Kipkelion West"
-"194","Kiambu"," Kabete"
-"195","Kilifi"," Magarini"
-"196","Kirinyaga"," Mwea West"
-"197","Kisii"," Bomachoge Borabu"
-"198","Kisumu"," Nyakach"
-"199","Kitui"," Kitui East"
-"200","Laikipia"," Nyahururu"
-"201","Machakos"," Mavoko"
-"202","Makueni"," Makueni"
-"203","Mandera"," Mandera South"
-"204","Meru"," Imenti Central"
-"205","Migori"," Ntimaru"
-"206","Mombasa"," Mvita"
-"207","Murang’a"," Kigumo"
-"208","Nairobi"," Embakasi North"
-"209","Nakuru"," Molo"
-"210","Nandi"," Nandi Hills"
-"211","Narok"," Transmara East"
-"212","Nyamira"," Nyamira South"
-"213","Nyandarua"," Ol Joro Orok"
-"214","Nyeri"," Mukurweini"
-"215","Siaya"," Ugenya"
-"216","Tana River"," Bangal"
-"217","Tharaka-Nithi"," Maara"
-"218","Trans-Nzoia"," Saboti"
-"219","Turkana"," Turkana South"
-"220","Uasin Gishu"," Soy"
-"221","Vihiga"," Vihiga"
-"222","Wajir"," Wajir South"
-"223","Baringo"," Tiaty West"
-"224","Bungoma"," Sirisia"
-"225","Busia"," Teso South"
-"226","Garissa"," Lagdera"
-"227","Homa Bay"," Ndhiwa"
-"228","Kakamega"," Khwisero"
-"229","Kericho"," Soin/Sigowet"
-"230","Kiambu"," Kiambaa"
-"231","Kilifi"," Malindi"
-"232","Kisii"," Bomachoge Chache"
-"233","Kisumu"," Nyando"
-"234","Kitui"," Mwingi North"
-"235","Machakos"," Mwala"
-"236","Makueni"," Mbooni"
-"237","Mandera"," Mandera West"
-"238","Meru"," Imenti North"
-"239","Migori"," Rongo"
-"240","Mombasa"," Nyali"
-"241","Murang’a"," Kiharu"
-"242","Nairobi"," Embakasi South"
-"243","Nakuru"," Naivasha"
-"244","Nandi"," Tindiret"
-"245","Narok"," Transmara West"
-"246","Nyeri"," Nyeri Town"
-"247","Siaya"," Unguja"
-"248","Tharaka-Nithi"," Chiakariga"
-"249","Uasin Gishu"," Turbo"
-"250","Wajir"," Wajir West"
-"251","Baringo"," Tiaty East"
-"252","Bungoma"," Tongaren"
-"253","Garissa"," Balambala"
-"254","Homa Bay"," Rangwe"
-"255","Kakamega"," Lugari"
-"256","Kiambu"," Kiambu"
-"257","Kilifi"," Rabai"
-"258","Kisii"," Bobasi"
-"259","Kisumu"," Seme"
-"260","Kitui"," Mwingi West"
-"261","Machakos"," Yatta"
-"262","Meru"," Imenti South"
-"263","Migori"," Suna East"
-"264","Murang’a"," Mathioya"
-"265","Nairobi"," Embakasi West"
-"266","Nakuru"," Nakuru Town East"
-"267","Nyeri"," Othaya"
-"268","Tharaka-Nithi"," Muthambi"
-"269","Bungoma"," Webuye East"
-"270","Homa Bay"," Suba"
-"271","Kakamega"," Lukuyani"
-"272","Kiambu"," Kikuyu"
-"273","Kisii"," South MugirangoBonchari"
-"274","Kitui"," Mwingi Central"
-"275","Meru"," Tigania East"
-"276","Migori"," Suna West"
-"277","Murang’a"," Murang’a South"
-"278","Nairobi"," Kamukunji"
-"279","Nakuru"," Nakuru Town West"
-"280","Nyeri"," Tetu"
-"281","Bungoma"," Webuye West"
-"282","Kakamega"," Lurambi"
-"283","Kiambu"," Limuru"
-"284","Meru"," Tigania West"
-"285","Migori"," Uriri"
-"286","Nairobi"," Kasarani"
-"287","Nakuru"," Njoro"
-"288","Kakamega"," Matete"
-"289","Kiambu"," Ruiru"
-"290","Nairobi"," Kibra"
-"291","Nakuru"," Rongai"
-"292","Kakamega"," Mumias"
-"293","Kiambu"," Thika Town"
-"294","Nairobi"," Lang’ata"
-"295","Nakuru"," Subukia"
-"296","Kakamega"," Mutungu"
-"297","Kiambu"," Lari"
-"298","Nairobi"," Makadara"
-"299","Kakamega"," Navakholo"
-"300","Kiambu"," Ndeiya"
-"301","Nairobi"," Mathare"
-"302","Kiambu","Thika West"
-"303","Nairobi"," Roysambu"
-"304","Kiambu"," Thika East"
-"305","Nairobi"," Ruaraka"
-"306","Nairobi"," Starehe"
-"307","Nairobi"," Westlands"
+county,subcounty
+Uasin Gishu,Ainabkoi
+Kericho,Ainamoi
+Nandi,Aldai
+Siaya,Alego Usonga
+Migori,Awendo
+Nakuru,Bahati
+Garissa,Balambala
+Tana River,Bangal
+Mandera,Banissa
+Baringo,Baringo Central
+Baringo,Baringo North
+Baringo,Baringo South
+Kericho,Belgut
+Kisii,Bobasi
+Kisii,Bomachoge Borabu
+Kisii,Bomachoge Chache
+Bomet,Bomet Central
+Bomet,Bomet East
+Kisii,Bonchari
+Siaya,Bondo
+Nyamira,Borabu
+Busia,Budalangi
+Bungoma,Bumula
+Kericho,Bureti
+Kakamega,Butere
+Busia,Butula
+Meru,Buuri
+West Pokot,Central Pokot
+Mombasa,Changamwe
+Bomet,Chepalungu
+Trans-Nzoia,Cherangany
+Nandi,Chesumei
+Tharaka-Nithi,Chiakariga
+Tharaka-Nithi,Chuka
+Garissa,Dadab
+Nairobi,Dagoretti North
+Nairobi,Dagoretti South
+Baringo,Eldama Ravine
+Wajir,Eldas
+Nairobi,Embakasi Central
+Nairobi,Embakasi East
+Nairobi,Embakasi North
+Nairobi,Embakasi South
+Nairobi,Embakasi West
+Nandi,Emgwen
+Vihiga,Emuhaya
+Trans-Nzoia,Endebess
+Garissa,Fafi
+Busia,Funyula
+Tana River,Galedyertu
+Kilifi,Ganze
+Isiolo,Garbatulla
+Garissa,Garissa
+Murang’a,Gatanga
+Kiambu,Gatundu North
+Kiambu,Gatundu South
+Siaya,Gem
+Nakuru,Gilgil
+Kiambu,Githunguri
+Vihiga,Hamisi
+Homa Bay,Homabay Town
+Garissa,Hulugho
+Tharaka-Nithi,Igambango'mbe
+Meru,Igembe Central
+Meru,Igembe North
+Meru,Igembe South
+Garissa,Ijara
+Meru,Imenti Central
+Meru,Imenti North
+Meru,Imenti South
+Kajiado,Isinya
+Isiolo,Isiolo
+Mombasa,Jomvu
+Kiambu,Juja
+Kiambu,Kabete
+Homa Bay,Kabondo Kasipul
+Bungoma,Kabuchai
+Murang’a,Kahuro
+Makueni,Kaiti
+Kajiado,Kajiado Central
+Kajiado,Kajiado North
+Kakamega,Kakamega Central
+Kakamega,Kakamega East
+Kakamega,Kakamega North
+Kakamega,Kakamega South
+Kilifi,Kaloleni
+Nairobi,Kamukunji
+Murang’a,Kandara
+Bungoma,Kanduyi
+Murang’a,Kangema
+Uasin Gishu,Kapseret
+Homa Bay,Karachuonyo
+Nairobi,Kasarani
+Homa Bay,Kasipul
+Machakos,Kathiani
+Elgeyo-Marakwet,Keiyo North
+Elgeyo-Marakwet,Keiyo South
+Uasin Gishu,Kesses
+Kakamega,Khwisero
+Kiambu,Kiambaa
+Kiambu,Kiambu Town
+Nairobi,Kibra
+Makueni,Kibwezi East
+Makueni,Kibwezi West
+Nyeri,Kieni East
+Nyeri,Kieni West
+Murang’a,Kigumo
+Murang’a,Kiharu
+Kiambu,Kikuyu
+Kilifi,Kilifi North
+Kilifi,Kilifi South
+Makueni,Kilome
+Bungoma,Kimilili
+Trans-Nzoia,Kiminini
+Kwale,Kinango
+Nyandarua,Kinangop
+Nyandarua,Kipipiri
+Kericho,Kipkelion East
+Kericho,Kipkelion West
+Kirinyaga,Kirinyaga Central
+Kirinyaga,Kirinyaga East
+Kirinyaga,Kirinyaga West
+Mombasa,Kisauni
+Kisumu,Kisumu Central
+Kisumu,Kisumu East
+Kisumu,Kisumu West
+Kitui,Kitui Central
+Kitui,Kitui East
+Kitui,Kitui Rural
+Kitui,Kitui South
+Kitui,Kitui West
+Kisii,Kitutu Chache North
+Kisii,Kitutu Chache South
+Bomet,Konoin
+Nakuru,Kuresoi North
+Nakuru,Kuresoi South
+Migori,Kuria East
+Migori,Kuria West
+Trans-Nzoia,Kwanza
+Mandera,Lafey
+Garissa,Lagdera
+Laikipia,Laikipia Central
+Laikipia,Laikipia East
+Laikipia,Laikipia North
+Laikipia,Laikipia West
+Marsabit,Laisamis
+Lamu,Lamu East
+Lamu,Lamu West
+Nairobi,Langata
+Kiambu,Lari
+Mombasa,Likoni
+Kiambu,Limuru
+Turkana,Loima
+Kajiado,Loitokitok
+Vihiga,Luanda
+Kakamega,Lugari
+Kakamega,Lukuyani
+Kwale,Lunga Lunga
+Kakamega,Lurambi
+Tharaka-Nithi,Maara
+Migori,Mabera
+Machakos,Machakos
+Kilifi,Magarini
+Nairobi,Makadara
+Makueni,Makueni
+Kilifi,Malindi
+Mandera,Mandera East
+Mandera,Mandera North
+Mandera,Mandera South
+Mandera,Mandera West
+Nyamira,Manga
+Embu,Manyatta
+Elgeyo-Marakwet,Marakwet East
+Elgeyo-Marakwet,Marakwet West
+Nyamira,Masaba North
+Kajiado,Mashuuru
+Machakos,Masinga
+Kakamega,Matete
+Nairobi,Mathare
+Murang’a,Mathioya
+Nyeri,Mathira East
+Nyeri,Mathira West
+Kwale,Matuga
+Machakos,Matungulu
+Machakos,Mavoko
+Embu,Mbeere North
+Embu,Mbeere South
+Homa Bay,Mbita
+Makueni,Mbooni
+Isiolo,Merti
+Baringo,Mogotio
+Uasin Gishu,Moiben
+Nakuru,Molo
+Nandi,Mosop
+Marsabit,Moyale
+Kwale,Msambweni
+Bungoma,Mt Elgon
+Kisumu,Muhoroni
+Nyeri,Mukurweini
+Kakamega,Mumias
+Murang’a,Muranga South
+Tharaka-Nithi,Muthambi
+Kakamega,Mutungu
+Mombasa,Mvita
+Machakos,Mwala
+Taita-Taveta,Mwatate
+Kirinyaga,Mwea East
+Kirinyaga,Mwea West
+Kitui,Mwingi Central
+Kitui,Mwingi North
+Kitui,Mwingi West
+Nakuru,Naivasha
+Nakuru,Nakuru East
+Nakuru,Nakuru West
+Busia,Nambele
+Nandi,Nandi Hills
+Narok,Narok East
+Narok,Narok North
+Narok,Narok South
+Narok,Narok West
+Kakamega,Navakholo
+Nyandarua,Ndaragwa
+Kiambu,Ndeiya
+Homa Bay,Ndhiwa
+Nakuru,Njoro
+Marsabit,North Horr
+West Pokot,North Pokot
+Migori,Ntimaru
+Laikipia,Nyahururu
+Kisumu,Nyakach
+Mombasa,Nyali
+Nyamira,Nyamira North
+Nyamira,Nyamira South
+Kisumu,Nyando
+Kisii,Nyaribari Chache
+Kisii,Nyaribari Masaba
+Nyeri,Nyeri Central
+Nyandarua,Olioroorok
+Nyandarua,Olkalou
+Nyeri,Othaya
+West Pokot,Pokot South
+Kilifi,Rabai
+Homa Bay,Rangwe
+Siaya,Rarieda
+Nakuru,Rongai
+Migori,Rongo
+Nairobi,Roysambu
+Nairobi,Ruaraka
+Kiambu,Ruiru
+Embu,Runyenjes
+Vihiga,Sabatia
+Trans-Nzoia,Saboti
+Marsabit,Saku
+Samburu,Samburu East
+Samburu,Samburu North
+Samburu,Samburu West
+Kisumu,Seme
+Bungoma,Sirisia
+Kericho,Sigowet/Soin
+Bomet,Sotik
+Kisii,South Mugirango
+Uasin Gishu,Soy
+Nairobi,Starehe
+Homa Bay,Suba
+Nakuru,Subukia
+Migori,Suna East
+Migori,Suna West
+Tana River,Tana Delta
+Tana River,Tana North
+Tana River,Tana River
+Wajir,Tarbaj
+Taita-Taveta,Taveta
+Busia,Teso North
+Busia,Teso South
+Nyeri,Tetu
+Tharaka-Nithi,Tharaka North
+Tharaka-Nithi,Tharaka South
+Kiambu,Thika East
+Kiambu,Thika Town
+Kiambu,Thika West
+Baringo,Tiaty East
+Baringo,Tiaty West
+Meru,Tigania East
+Meru,Tigania West
+Nandi,Tinderet
+Bungoma,Tongaren
+Narok,Transmara East
+Narok,Transmara West
+Uasin Gishu,Turbo
+Turkana,Turkana Central
+Turkana,Turkana East
+Turkana,Turkana North
+Turkana,Turkana South
+Siaya,Ugenya
+Siaya,Ugunja
+Migori,Uriri
+Vihiga,Vihiga
+Taita-Taveta,Voi
+Wajir,Wajir East
+Wajir,Wajir North
+Wajir,Wajir South
+Wajir,Wajir West
+Bungoma,Webuye East
+Bungoma,Webuye West
+West Pokot,West Pokot
+Nairobi,Westlands
+Taita-Taveta,Wundanyi
+Machakos,Yatta
