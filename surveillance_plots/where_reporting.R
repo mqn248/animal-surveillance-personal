@@ -4,20 +4,22 @@ library(sf)
 ## read in the data for the dashboard 
 
 ## needs to be updated to read from database directly 
-#kabs <- readxl::read_excel("dummy_data/animal_data.xlsx",
-                                #sheet="Cleaned")
+kabs_all <- readxl::read_excel("dummy_data/Cleaned Animal data.xlsx")
+
+kabs <- kabs_all[sample(1:nrow(kabs_all),size=30,
+                                  replace=FALSE),]
 
 
-conn <-  dbConnect(
-  RPostgres::Postgres(),
-  dbname = "postgres",
-  host = "animalsurveillance.craswukoq326.us-east-1.rds.amazonaws.com",
-  port = 5432,
-  user = "postgres",
-  password = "c3mA_hUb"
-)
-
-kabs <- dbGetQuery(conn, "SELECT * FROM kabs_records")
+# conn <-  dbConnect(
+#   RPostgres::Postgres(),
+#   dbname = "postgres",
+#   host = "animalsurveillance.craswukoq326.us-east-1.rds.amazonaws.com",
+#   port = 5432,
+#   user = "postgres",
+#   password = "c3mA_hUb"
+# )
+# 
+# kabs <- dbGetQuery(conn, "SELECT * FROM kabs_records")
 
 
 
@@ -83,8 +85,9 @@ sf_data_comb <- sf_data_comb %>%
 
 length(which(is.na(sf_data_comb$reported)))
 
-ggplot(data = sf_data_comb) +
-  geom_sf(aes(fill=as.factor(reported_label))) +
+ggplot() +
+  geom_sf(data = sf_data_comb,aes(fill=as.factor(reported_label))) +
+  geom_point(data = kabs,aes(x=Longitude,y=Latitude),size=2,col="darkgreen")+
   theme_minimal()+
   theme(panel.grid.major = element_blank(),
         axis.text = element_blank(),
