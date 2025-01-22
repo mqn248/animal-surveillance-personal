@@ -5,8 +5,8 @@ file_path2 = 'D:/CEMA PROJECTS/animalHealthSurveillance/animal-surveillance/dumm
 sheet_name = 'Cleaned' 
 
 # set file path and sheet name 
-file_path = 'D:/CEMA PROJECTS/animalHealthSurveillance/animal-surveillance/dummy_data/animal_data2.xlsx' 
-sheet_name = 'Sheet1'  
+file_path = 'D:/CEMA PROJECTS/animalHealthSurveillance/animal-surveillance/dummy_data/2024_ ND1 Reports.xlsx' 
+sheet_name = 'KABS'  
 rename_col = {'Sub-County': 'Sub_County', 
             #'sub location': 'Sub_Location',
             'Date of Start of Outbreak/Event':'Start_Outbreak_Event',

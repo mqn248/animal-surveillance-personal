@@ -1,5 +1,8 @@
 library(pacman)
 p_load(
+  DBI,
+  sf,
+  tmap,
   tidyverse,
   highcharter,
   plotly,
@@ -165,3 +168,4 @@ p_load(
 # ntds_color_code <- readRDS('RData/ntds_color_code.RDS')
 # 
 # 
+

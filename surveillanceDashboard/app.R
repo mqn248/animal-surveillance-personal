@@ -4,8 +4,7 @@ plan(multisession)
 options(future.rng.onMisuse = "ignore")
 source("global2.R")
 
-
-
+#kenya_shape <- sf::st_read("D:/CEMA PROJECTS/animalHealthSurveillance/animal-surveillance/surveillanceDashboard/shapefiles/ken_admbnda_adm1_iebc_20191031.shp")
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
@@ -38,7 +37,7 @@ ui <- fluidPage(
                                     startExpanded = TRUE
                                     
                            ),
-                           menuItem('Animal Surveillance', tabName = "surveillance")                                   
+                           menuItem('Animal Surveillance', tabName = "surveillance")                                  
                          )
                          ),
       
@@ -75,11 +74,10 @@ ui <- fluidPage(
                loginUI(id = "login")
              )
              
-    ),
+    ), 
   
     
     # 2.0 Priority Diseases -----------------------------------------------------
-    
     navbarMenu(title =  "Zoonotic Diseases",
                tabPanel(
                  "Priority Diseases",
@@ -105,10 +103,10 @@ ui <- fluidPage(
                    dashboardBody(includeCSS("menu.css"), 
                                  tabItems(
                                    ## 2.1 Anthrax ----------------------------------------------------------
-                                   
-                                   tabItem(tabName = "ant"
+                                   tabItem(tabName = "ant",
                                           
-                                   ), 
+                                   ),
+                                     
                                    ## 2.2 African Swine Fever (ASF) ----------------------------------------------------
                                    
                                    tabItem(tabName = "asf"
@@ -121,9 +119,19 @@ ui <- fluidPage(
                                    ),
                                    
                                    ## 2.4 Brucellosis ----------------------------------------------------
-                                   
-                                   tabItem(tabName = "bru"
-
+                                   tabItem(tabName = "bru",
+                                           fluidRow(
+                                             column(12, 
+                                                    fluidRow(
+                                                      column(6, uiOutput("county_filter_ui")),
+                                                      column(6, selectInput("grouping_filter", "Select Grouping", 
+                                                                            choices = c("Number_at_Risk", "Number_Sick", "Nature_of_Diagnosis")))
+                                                    ),
+                                                    #tableOutput("brucellosis_summary"),
+                                                    DT::dataTableOutput("brucellosis_summary"),
+                                                    plotOutput("brucellosis_trend")
+                                             )
+                                           )
                                    ),
                                    
                                    ## 2.5 Contagious Bovine Pleuro Pneumonia (CBPP) ----------------------------------------------------
@@ -194,41 +202,83 @@ ui <- fluidPage(
 # Define server logic required to draw a histogram
 server <- function(input, output, session) {
   
-  # 0. Authentication ----------------------------------------------------------
-  
+  # Authentication ----------------------------------------------------------
   credentials <- shinyauthr::loginServer(
     id = "login",
     data = user_base,
     user_col = 'user',
     pwd_col = 'password'
   )
-  authenticated <- reactiveVal({})
+  
+  authenticated <- reactiveVal(FALSE)
+  
   observe({
     if (credentials()$user_auth) {
-      authenticated(TRUE)  # Set authenticated to TRUE if user_auth is TRUE
+      authenticated(TRUE)
       shiny::showTab(inputId = "animal_surveillance", target = "Animal Surveillance")
       shinyalert::shinyalert(
         title = "Logged in successfully!",
         text = "Redirecting to first page",
-        type = "success",
-        showConfirmButton = TRUE,
-        showCancelButton = FALSE,
-        timer = 10000,
-        immediate = TRUE,
-        closeOnClickOutside = FALSE,
-        closeOnEsc = FALSE
+        type = "success"
       )
-      
-      # This should switch to the Summary tab
       updateTabsetPanel(session, "main-tabset", selected = "Summary")
-      
     } else {
-      authenticated(FALSE)  # Set authenticated to FALSE if user_auth is FALSE
+      authenticated(FALSE)
       shiny::hideTab(inputId = "animal_surveillance", target = "Animal Surveillance")
     }
   })
+  
+  # Fetch kabs_records Table ------------------------------------------------
+  kabs_records <- reactive({
+    req(authenticated())
+    dbGetQuery(conn, "SELECT * FROM kabs_records")
+  })
 
+  
+  # Dynamically render County filter -----------------------------------------
+  output$county_filter_ui <- renderUI({
+    req(kabs_records())
+    selectInput("county_filter", "Filter by County", 
+                choices = unique(kabs_records()$County), multiple = TRUE)
+  })
+  
+  # Brucellosis data filtering ----------------------------------------------
+  brucellosis_data <- reactive({
+    req(kabs_records())
+    data <- kabs_records() |>
+      filter(Disease_Condition == "Brucellosis")
+    
+    if (!is.null(input$county_filter)) {
+      data <- data|>
+        filter(County %in% input$county_filter)
+    }
+    
+    data
+  })
+  
+  # Brucellosis Summary Table ------------------------------------------------
+  
+  
+  output$brucellosis_summary <- DT::renderDataTable({
+    req(brucellosis_data())
+    
+    # Summarize by multiple groupings
+    summary_data <- brucellosis_data() |>
+      group_by(County, Nature_of_Diagnosis, Number_Sick, Number_Dead, Number_at_Risk) |>
+      summarise(Total = n(), .groups = 'drop')  
+    
+    # Render the summarized data as a DataTable
+    DT::datatable(summary_data, options = list(pageLength = 10, autoWidth = TRUE))
+  })
+  
+  # Brucellosis Trend Line Plot ----------------------------------------------
+  output$brucellosis_trend <- renderPlot({
+    req(brucellosis_data())
+    ggplot(brucellosis_data(), aes(x = Start_Outbreak_Event, y = Report_Date)) +
+      geom_line() +
+      theme_minimal() +
+      labs(title = "Brucellosis Outbreak Trends", x = "Start of Outbreak", y = "Report Date")
+  })
 }
 
-# Run the application 
 shinyApp(ui = ui, server = server)
