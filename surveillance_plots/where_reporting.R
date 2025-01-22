@@ -4,8 +4,22 @@ library(sf)
 ## read in the data for the dashboard 
 
 ## needs to be updated to read from database directly 
-kabs <- readxl::read_excel("dummy_data/animal_data.xlsx",
-                                sheet="Cleaned")
+#kabs <- readxl::read_excel("dummy_data/animal_data.xlsx",
+                                #sheet="Cleaned")
+
+
+conn <-  dbConnect(
+  RPostgres::Postgres(),
+  dbname = "postgres",
+  host = "animalsurveillance.craswukoq326.us-east-1.rds.amazonaws.com",
+  port = 5432,
+  user = "postgres",
+  password = "c3mA_hUb"
+)
+
+kabs <- dbGetQuery(conn, "SELECT * FROM kabs_records")
+
+
 
 ## variable we want is sub-county - need to see what this is called properly 
 
@@ -23,13 +37,13 @@ kabs <- readxl::read_excel("dummy_data/animal_data.xlsx",
 sub_counties <- read.csv("surveillance_plots/data/subcounties_tidy.csv")
 
 sub_counties <- sub_counties %>% mutate(
-  reported = ifelse(subcounty %in% kabs$`Sub-County`, 1, 0)
+  reported = ifelse(subcounty %in% kabs$Sub_County, 1, 0)
 )
 
 # sub_counties$subcounty[which(sub_counties$subcounty=="Igambango'mbe")] <- "Igambang'ombe"
 # sub_counties$subcounty[which(sub_counties$subcounty=="Sigowet/Soin sub")] <- "Sigowet/Soin"
 
-length(unique(kabs$`Sub-County`))
+length(unique(kabs$Sub_County))
 sub_counties %>% select(reported) %>% sum()
 
 ## now read in the shape files 
