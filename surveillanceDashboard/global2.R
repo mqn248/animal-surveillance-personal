@@ -1038,10 +1038,10 @@
   # Creating the connection -------------------------------------------------
   conn <-  dbConnect(
     RPostgres::Postgres(),
-    dbname = "postgres",
-    host = "animalsurveillance.craswukoq326.us-east-1.rds.amazonaws.com",
-    #dbname = "animalSurveillance",
-    #host = "localhost",
+    #dbname = "postgres",
+    #host = "animalsurveillance.craswukoq326.us-east-1.rds.amazonaws.com",
+    dbname = "animalSurveillance",
+    host = "localhost",
     port = 5432,
     user = "postgres",
     password = "c3mA_hUb"

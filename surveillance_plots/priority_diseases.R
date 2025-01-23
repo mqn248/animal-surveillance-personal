@@ -15,7 +15,7 @@ library(RColorBrewer)
 # 
 # kabs <- dbGetQuery(conn, "SELECT * FROM Animal_records")
 
-kabs <- readxl::read_excel("dummy_data/Cleaned Animal data.xlsx")
+kabs <- readxl::read_excel("D:/CEMA PROJECTS/animalHealthSurveillance/animal-surveillance/dummy_data/Cleaned Animal data.xlsx")
 
 focus_cols <- c("County","Disease_Condition","Number_at_Risk","Number_Sick", 
                 "Number_Dead","Number_Humans_Affected_zoonosis",
@@ -30,10 +30,10 @@ str(kabs)
 
 ## trends of priority disease in 2024 - line graph (might change to bar)
 
-df <- kabs %>% filter(Report_Date>=as.Date("2024-01-01"),
-                Disease_Condition %in% priority_diseases) %>%
+df <- kabs|> filter(Report_Date>=as.Date("2024-01-01"),
+                Disease_Condition %in% priority_diseases) |>
   select(Report_Date,County,Disease_Condition,Number_at_Risk,Number_Sick,
-         Number_Dead,Number_Humans_Affected_zoonosis) %>%
+         Number_Dead,Number_Humans_Affected_zoonosis) |>
   mutate(month = factor(format(Report_Date,"%b"),
                         levels=c("Jan","Feb","Mar","Apr","May","Jun","Jul",
                                  "Aug","Sep", "Oct","Nov","Dec")))
@@ -43,10 +43,10 @@ df <- kabs %>% filter(Report_Date>=as.Date("2024-01-01"),
   #                                "October","November","December"))) 
 
 df1 <- pivot_longer(df,cols = c("Number_at_Risk","Number_Sick", 
-                         "Number_Dead","Number_Humans_Affected_zoonosis")) %>%
-  rename(variable = name) %>% 
-  group_by(month,variable,Disease_Condition) %>%
-  summarise(value = sum(value,na.rm = NA)) %>%
+                         "Number_Dead","Number_Humans_Affected_zoonosis")) |>
+  rename(variable = name)|>
+  group_by(month,variable,Disease_Condition) |>
+  summarise(value = sum(value,na.rm = NA))|>
   mutate(variable_label = factor(case_when(variable=="Number_at_Risk" ~ "At risk",
                               variable=="Number_Dead" ~ "Dead",
                               variable=="Number_Sick" ~ "Sick",
