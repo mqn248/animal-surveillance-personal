@@ -14,3 +14,6 @@ Plan for Tuesday:
 * Anne and Ryan to demo what they have worked on so far.
 * Anne, Brian and Ruth to advance data cleaning in conjunction with decision-makers.
 * Ryan and Arani to work on dashboard.
+
+
+Presentation slides: https://docs.google.com/presentation/d/1mAKBlBd7JVzcl0iGOMk4oqraJXCEJC9P/edit?usp=sharing&ouid=108457677050639197846&rtpof=true&sd=true
