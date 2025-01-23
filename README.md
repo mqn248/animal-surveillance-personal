@@ -7,7 +7,7 @@ Our tasks this week are the following:
 * Create a centralised database that reads in data from KABS and other sources (Anne, Ruth).
 * Draft a dashboard to display these data, to track outbreak frequency over time(Month)- Demo dataset provided, with a particular focus on prioirity diseases, transmission chains, cases[outbreaks]- Number at Risk, Death,Sick, Destrroyed,Slaughtered and location of the reports - Disease hotspt across counties in Kenya (Ryan, Arani).
 
-Further details are provided in Notes folder.
+Further details are provided in Notes folder, and a full analytical plan can be found here: https://docs.google.com/document/d/1KqcCj-4oSSBYYuRjmJQmGE00VFgTIFE1_IQYz7MxzLc/edit?usp=sharing. 
 
 Plan for Tuesday:
 * Onboard Brian to the family.
