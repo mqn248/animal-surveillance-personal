@@ -1,5 +1,8 @@
 library(pacman)
 p_load(
+  DBI,
+  sf,
+  tmap,
   tidyverse,
   highcharter,
   plotly,
@@ -48,6 +51,5 @@ data_county <- fread("data/data_county.csv")
 data_subcounty <- fread("data/data_subcounty.csv")
 county_shapefile <- st_read("clean shapefiles/county_shapefile.shp", quiet = T)
 subcounty_shapefile <- st_read("clean shapefiles/subcounty_shapefile.shp", quiet = T)
-
 
 
