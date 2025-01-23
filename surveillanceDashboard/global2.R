@@ -16,9 +16,9 @@
 # functions ---------------------------------------------------------------
   plot_location <- \(input, output, session, outputID,county_outputID) {
 
-    #county <- future_promise(st_read("shapefiles/County.shp", quiet = T))
+    county <- future_promise(st_read("shapefiles/County.shp", quiet = T))
     #khfa <- (readRDS("RData/khfa.RDS"))
-    #location <- future_promise(fread("data/facilities_location_qoc.csv")) %...>%
+    location <- future_promise(fread("data/clinic_locations.csv")) %...>%
       filter(!is.na(latitude))
 
     map <- reactiveVal()
@@ -35,7 +35,7 @@
         location <- location
      output$title <- renderUI({
        p(
-         strong("Location of health facilities"),
+         strong("Location of clinics"),
             style = "color:black; text-align:center; font-size: 18px;"
           )
 
@@ -58,17 +58,17 @@
 
         output$title <- renderUI({})
 
-        output$loc_par <- renderUI({
+        output$surveillance_par <- renderUI({
           if (length(selected_county()) > 1) {
             county_text <- paste(selected_county(), collapse = ", ")
             county_text <- paste(county_text, "counties")
             p(
-              paste(strong("Location of health facilities in", county_text)),
+              paste(strong("Location of clinics in", county_text)),
               style = "color:black; text-align:center; font-size: 18px;"  # Adjust the font size as needed
             )
           } else {
             p(
-              strong(sprintf("Location of health facilities in %s County", selected_county())),
+              strong(sprintf("Location of clinics in %s County", selected_county())),
               style = "color:black; text-align:center; font-size: 18px;"  # Adjust the font size as needed
             )
           }
@@ -104,8 +104,8 @@
                 ),
                 tooltip = list(
                   headerFormat = "",
-                  pointFormat = "Facility: <b>{point.name}</b><br>County: <b>{point.county}</b><br>
-                     Level: <b>{point.keph_level}</b><br>Owner: <b>{point.ownwehsip}</b>"
+                  pointFormat = "<br>County: <b>{point.county}</b><br>
+                     <br>Owner: <b>{point.ownership}</b>"
                 ),
                 states = list(
                   inactive = list(
@@ -332,8 +332,8 @@
           req(map())
           map()
         })
-        output$loc_par <- renderUI({p(
-          "Location of health facilities in the country",
+        output$surveillance_par <- renderUI({p(
+          "Location of clinics in the country",
           style = "color:black; text-align:center;"
         )
         })
@@ -359,18 +359,18 @@
         #req(map())
         map()
       })
-      output$loc_par <- renderUI({
+      output$surveillance_par <- renderUI({
         if (length(selected_county()) > 1) {
           county_text <- paste(selected_county(), collapse = ", ")
           county_text <- paste(county_text, "counties")
           p(
-            paste("Location of health facilities in", county_text),
+            paste("Location of clinics in", county_text),
             style = "color:black; text-align:center;"
           )
 
         } else {
           p(
-            paste( "Location of health facilities in", selected_county(), "county"),
+            paste( "Location of clinics in", selected_county(), "county"),
             style = "color:black; text-align:center;"
           )
 

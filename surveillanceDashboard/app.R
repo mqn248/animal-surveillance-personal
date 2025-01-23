@@ -60,7 +60,88 @@ ui <- fluidPage(
                               )
                             )
                           )
+                        ),
+                      # Animal Surveillance -----------------------------------------------------
+                      tabItem(
+                        tabName = "surveillance",
+                        div(
+                          id = 'intro',
+                          h4(
+                            strong("Summary of the Animal Surveillance Report System"), style = "color: #27AAE1;text-align:center; margin-bottom:10px;"),
+                          
+                          fluidRow(
+                            infoBoxOutput("v1"),
+                            infoBoxOutput("v2"),
+                            infoBoxOutput("v3"),
+                            infoBoxOutput("v4"),
+                            infoBoxOutput("v5"),
+                          )
+                        ),
+                        
+                        div(
+                          id = "intro",
+                          h4(
+                            strong("Disease Occurrence and Risk"), style = "color: #27AAE1;text-align:center; margin-bottom:10px;"),
+                          fluidRow(
+                            column(1),
+                            column(3,
+                                   selectInput(
+                                     inputId = "select_disease",
+                                     label = "Select disease",
+                                     choices = unique(data_county$`Disease/ Condition`),
+                                     selected = unique(data_county$`Disease/ Condition`)[1]
+                                   )
+                            ),
+                            column(1),
+                            column(2,
+                                   prettyRadioButtons(
+                                     inputId = "owner_selector",
+                                     label = "Select organisation :",
+                                     choices = c(
+                                       "All",
+                                       "Government/Public Entity",
+                                       "Private"
+                                     ),
+                                     selected = "Government/Public Entity",
+                                     icon = icon("check"),
+                                     animation = "smooth",
+                                     bigger = T,
+                                     fill = T,
+                                     thick = T,
+                                     outline = T,
+                                     status = "primary",
+                                     width = "100%"
+
+                                   )
+                            ),
+                            column(1),
+                            column(2,
+                                   pickerInput(
+                                     inputId = "county_selector",
+                                     label = "Select county", 
+                                     choices = unique(data_county$county),
+                                     options = pickerOptions(container = "body", 
+                                                             liveSearch = TRUE),
+                                     width = "100%",
+                                     selected = unique(data_county$county)[1]
+                                   )
+                            ),
+                            
+                          ),
+                          fluidRow(
+                            column(6,
+                                   shinycssloaders::withSpinner(
+                                     highchartOutput("map1", width = "100%", height = "600px")
+                                   )
+                            ),
+                            column(6,
+                                   shinycssloaders::withSpinner(
+                                     highchartOutput("map2", width = "100%", height = "600px")
+                                   )
+                            )
+                          )
                         )
+                      )
                       )
                 ),
       )
@@ -228,7 +309,88 @@ server <- function(input, output, session) {
     }
   })
 
+
+# Animal Surveillance Maps ------------------------------------------------
+
+  observeEvent(c(input$select_disease, input$county_selector), {
+    df_disease <- data_county |> 
+      dplyr::filter(`Disease/ Condition` == input$select_disease)
+    
+    df_disease_sub <- data_subcounty |> 
+      dplyr::filter(`Disease/ Condition` == input$select_disease, county == input$county_selector)
+    
+    shapefile <- jsonlite::toJSON(county_shapefile) 
+    subcounty_shapefile <- subcounty_shapefile |> 
+      filter(county == input$county_selector) |> 
+      jsonlite::toJSON() 
+    
+    output$map1 <- renderHighchart({
+      ylgn_palette <- RColorBrewer::brewer.pal(n = 9, name = "YlGn")
+      # Create stops for the color axis
+      stops <- color_stops(9, colors = ylgn_palette)
+      
+      highchart(type = "map") |>
+        hc_add_series(
+          name = "Back to main plot",
+          mapData =  shapefile, # This county shapefile,
+          data = list_parse(df_disease),
+          value = 'n',
+          borderWidth = 0.8,
+          nullColor = "white",
+          joinBy = "county",
+          showInLegend = FALSE,
+          borderColor = "black",
+          dataLabels = list(enabled = TRUE, format = '{point.county}'),
+          tooltip = list(
+            useHTML = TRUE,
+            headerFormat = "<p>",
+            pointFormat = paste0("<b style=\"color:#1874CD\"> Number at Risk:</b> {point.value:.2f}<br>"),
+            footerFormat = "</p>"
+          )
+        ) |>
+        hc_plotOptions(map = list(states = list(hover = list(color = '#FFFFFF')))) |>
+        hc_colorAxis(
+          min = min(df_disease$value),
+          max = max(df_disease$value), 
+          stops = stops  
+        ) |> 
+        hc_exporting(enabled = TRUE)
+    })
+    output$map2 <- renderHighchart({
+      ylgn_palette <- RColorBrewer::brewer.pal(n = 9, name = "YlGn")
+      # Create stops for the color axis
+      stops <- color_stops(9, colors = ylgn_palette)
+      
+      highchart(type = "map") |>
+        hc_add_series(
+          name = "Back to main plot",
+          mapData =  subcounty_shapefile, # This county shapefile,
+          data = list_parse(df_disease_sub),
+          value = 'n',
+          borderWidth = 0.8,
+          nullColor = "white",
+          joinBy =  "sub_county",
+          showInLegend = FALSE,
+          borderColor = "black",
+          dataLabels = list(enabled = TRUE, format = '{point.sub_county}'),
+          tooltip = list(
+            useHTML = TRUE,
+            headerFormat = "<p>",
+            pointFormat = paste0("<b style=\"color:#1874CD\"> Number at Risk:</b> {point.value:.2f}<br>"),
+            footerFormat = "</p>"
+          )
+        ) |>
+        hc_plotOptions(map = list(states = list(hover = list(color = '#FFFFFF')))) |>
+        hc_colorAxis(
+          min = min(df_disease_sub$value),
+          max = max(df_disease_sub$value), 
+          stops = stops  
+        ) |> 
+        hc_exporting(enabled = TRUE)
+    })
+  })
 }
+
 
 # Run the application 
 shinyApp(ui = ui, server = server)
