@@ -612,7 +612,7 @@ server <- function(input, output, session) {
     highchart() |> 
       hc_chart(type = "bar") |> 
       hc_xAxis(categories = ant_data$County) |> 
-      hc_add_series(name = "Total Risk", data = bru_data$Total_Number_Risk) |> 
+      hc_add_series(name = "Total Risk", data = ant_data$Total_Number_Risk) |> 
       hc_title(text = "Total Risk of Anthrax Occurrence by County") |> 
       hc_yAxis(visible = FALSE) |>  # Hide Y-axis labels
       hc_xAxis(title = list(text = "County")) |> 
