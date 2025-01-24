@@ -1,0 +1,12 @@
+name: surveillanceDashboard
+title: surveillanceDashboard
+username: cema
+account: cema
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13798798
+bundleId:
+url: https://cema.shinyapps.io/surveillanceDashboard/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

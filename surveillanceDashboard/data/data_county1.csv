@@ -1,0 +1,1570 @@
+county,Disease/ Condition,total
+Baringo,Anaplasmosis,28
+Baringo,Foot and Mouth Disease (FMD),926
+Marsabit,Wound,188
+Busia,Pneumonia,224
+Baringo,Helminthiasis,130
+Baringo,Coccidosis,34
+Marsabit,Fracture,7
+Makueni,Pneumonia,1044
+Baringo,Bees Sting,3
+Baringo,Black Quarter,6
+Kiambu,Lumpy Skin Disease (LSD),3
+Baringo,Calf Scours,6
+Marsabit,Helminthiasis,9168
+Marsabit,Tetanus,144
+Marsabit,Ephemeral fever,12
+Laikipia,Contagious Caprine Pleuropneumonia (CCPP),100
+Marsabit,Brucellosis,16293
+Marsabit,Trypanosomiasis,1946
+Baringo,East Coast Fever(ECF),21
+Taita Taveta,Foot Rot,21
+Bomet,Helminthiasis,26
+Bomet,ephemeral fever,43
+Marsabit,Coccidosis,768
+Bomet,Black Quarter,80
+Bomet,Poisoning,201
+Bomet,Anaplasmosis,3
+Bomet,Lumpy Skin Disease (LSD),103
+Marsabit,Poisoning,1807
+Bomet,East Coast Fever(ECF),44
+Bomet,Pneumonia,7
+Marsabit,Caseous Lymphad,61
+Marsabit,orf,522
+Vihiga,Lumpy Skin Disease (LSD),20
+Elgeyo/Marakwet,East Coast Fever(ECF),282
+Bomet,Mastitis,12
+Marsabit,Goat Pox,1421
+Bomet,Peste des Petit Ruminants (PPR),40
+Bomet,Animal bites,5
+Bomet,Trypanosomiasis,32
+Bomet,Liver Cyrrhosis,0
+Bomet,Hydited Cyst,0
+Bomet,Brucellosis,8
+Marsabit,mastitis,3
+Bomet,Rabies,100
+Bomet,Mange,1
+Bomet,Fasciola,0
+Marsabit,Meningitis,50
+Marsabit,Animal bites,2980
+Bomet,Coccidosis,90
+Bungoma,East Coast Fever(ECF),48
+Elgeyo/Marakwet,Peste des Petit Ruminants (PPR),35
+Bungoma,Helminthiasis,239
+Makueni,Contagious Caprine Pleuropneumonia (CCPP),515
+Bungoma,Trypanosomiasis,5
+Bungoma,Ketosis,2
+Bungoma,Pneumonia,209
+Bungoma,Anaplasmosis,50
+Bungoma,Heart Water,4
+Bungoma,Post Parturient Condition,1
+Bungoma,Brucellosis,78
+Bungoma,Animal bites,116
+Bungoma,Rabies,106
+Bungoma,Dystocia,2
+Marsabit,Black Quarter,268
+Bungoma,Colic,1
+Bungoma,Mange,26
+Bungoma,Coeneurosis,5
+Bungoma,Foot and Mouth Disease (FMD),580
+Bungoma,Laminitis,6
+Bungoma,Lumpy Skin Disease (LSD),59
+Bungoma,Acute Camel Disease Syndromes (ACDS),52
+Busia,Helminthiasis,459
+Busia,Brucellosis,291
+Narok,footrot,74
+Busia,Foot Rot,8
+Busia,Black Quarter,37
+Busia,Anthrax,8
+Busia,Rabies,25
+Busia,East Coast Fever(ECF),525
+Marsabit,Footrot,996
+Busia,Mange,41
+Busia,Red Urine,5
+Marsabit,Abcess,25
+Busia,0,15
+Busia,Anaplasmosis,132
+Busia,Animal bites,85
+Busia,Abscess,1
+Busia,Newcastle Disease (NCD),94
+Busia,Rift Valley Fever (RVF),25
+Busia,Lumpy Skin Disease (LSD),1368
+Busia,Enterotoxaemia,81
+Taita Taveta,Orf Disease,68
+Busia,ephemeral fever,201
+Busia,Fowl Typhoid,15
+Busia,Coeneurosis,6
+Busia,Trypanosomiasis,414
+Busia,Coccidosis,36
+Busia,Fowl Typoid,33
+Busia,Trauma,0
+Busia,Warble,1
+Busia,Calf Scours,8
+Busia,Leptospirosis,30
+Busia,Bottle Jow,50
+Elgeyo/Marakwet,Heart Water,20
+Elgeyo/Marakwet,Helminthiasis,216
+Elgeyo/Marakwet,Pneumonia,187
+Elgeyo/Marakwet,Johnes Disease,2
+Elgeyo/Marakwet,Diarrhoea,40
+Elgeyo/Marakwet,Bloat,65
+Elgeyo/Marakwet,Distocia,2
+Elgeyo/Marakwet,Anaplasmosis,75
+Elgeyo/Marakwet,Foetal Mumification,1
+Elgeyo/Marakwet,Babesia Bovis,12
+Elgeyo/Marakwet,Haemorrhagic septicemia,200
+Elgeyo/Marakwet,Animal bites,27
+Elgeyo/Marakwet,Foot and Mouth Disease (FMD),81
+Elgeyo/Marakwet,Absess,3
+Elgeyo/Marakwet,Fowl Pox,90
+Elgeyo/Marakwet,Cirrhosis,0
+Elgeyo/Marakwet,Brucellosis,36
+Elgeyo/Marakwet,Plant Poison,1
+Elgeyo/Marakwet,Animal Bite,5
+Elgeyo/Marakwet,TVT,4
+Garissa,Contagious Caprine Pleuropneumonia (CCPP),30125
+Garissa,Lumpy Skin Disease (LSD),929
+Garissa,East Coast Fever(ECF),68
+Garissa,Helminthiasis,207
+Garissa,Iron Defficiency,9
+Garissa,Infectious Bursai Disease (Gumboro),431
+Garissa,Pneumonia,120
+Garissa,Arthritis,19
+Kajiado,Rabies,121
+Kajiado,Lumpy Skin Disease (LSD),3469
+Kajiado,Helminthiasis,50
+Kajiado,Brucellosis,532
+Kakamega,Myocarditis,0
+Marsabit,Camel Pox,305
+Turkana,Mange,574
+Kakamega,Helminthiasis,113
+Kakamega,Contagious Caprine Pleuropneumonia (CCPP),221
+Kakamega,Brucellosis,219
+Kakamega,Goat Pox,1285
+Kakamega,Black Quarter,35
+Kakamega,Anthrax,39
+Kakamega,East Coast Fever(ECF),154
+Kakamega,Pink Eye,35
+Kakamega,Anaplasmosis,56
+Kakamega,Trypanosomiasis,295
+Kakamega,Lumpy Skin Disease (LSD),1784
+Kakamega,Pneumonia,122
+Kakamega,Rabies,2098
+Kakamega,Foot And Rot,2
+Kakamega,injury,60
+Kakamega,Haemorrhagic septicemia,16
+Kakamega,H.S,67
+Kakamega,Dytocia,15
+Kakamega,Injury,4
+Kakamega,Milk Fever,1
+Kakamega,Parasite Infestation,2
+Kakamega,Abscess,25
+Marsabit,caseous Lymphad,11
+Marsabit,Haemorrhagic septicemia,917
+Marsabit,Heart Water,2025
+Marsabit,Pneumonia,9109
+Marsabit,Haemorrhagic Septicemia,19
+Kakamega,Animal bites,13
+Kakamega,0,5
+Kakamega,Clinical Mastits,5
+Kakamega,Caseous Lymphad,14
+Kericho,Anaplasmosis,4
+Kirinyaga,Anaplasmosis,3
+Kirinyaga,Helminthiasis,14
+Kisumu,East Coast Fever(ECF),96
+Kisumu,Helminthiasis,14
+Kitui,Abscess,0
+Kitui,Helminthiasis,23
+Kitui,Anaplasmosis,23
+Kwale,Helminthiasis,1287
+Laikipia,Brucellosis,90
+Machakos,Pneumonia,2
+Makueni,Brucellosis,592
+Makueni,Helminthiasis,588
+Makueni,Rabies,523
+Makueni,Dystocia,0
+Taita Taveta,Trypanosomiasis,2425
+Makueni,Anaplasmosis,332
+Makueni,Babesiosis,52
+Makueni,East Coast Fever(ECF),371
+Makueni,Animal bites,96
+Makueni,Arthritis,16
+Makueni,Orf,190
+Makueni,Orf Disease Was Diagnosed,800
+Makueni,Trypanosomiasis,256
+Makueni,Peste des Petit Ruminants (PPR),42
+Makueni,Heart Water,373
+Makueni,Eclampsia,0
+Makueni,0,33
+Makueni,Foot and Mouth Disease (FMD),3747
+Makueni,Lumpy Skin Disease (LSD),1545
+Makueni,Collibacillosis,4
+Marsabit,Foot and Mouth Disease (FMD),610
+Makueni,Goat Pox,312
+Makueni,Poisoning,105
+Makueni,Footrot,5
+Makueni,Haemorrhagic septicemia,29
+Makueni,Black Quarter,3
+Taita Taveta,Anaplasmosis,770
+Makueni,Bluetongue,24
+Makueni,Wryneck,13
+Marsabit,Rabies,992
+Marsabit,Fowl Pox,347
+Marsabit,Lumpy Skin Disease (LSD),1002
+Garissa,Foot and Mouth Disease (FMD),1830
+Marsabit,Bovine papillomatosis,7
+Marsabit,No,143
+Marsabit,Arthritis,59
+Marsabit,0,1908
+Marsabit,Myasis,0
+Marsabit,Dystocia,0
+Marsabit,Contagious Caprine Pleuropneumonia (CCPP),7565
+Marsabit,Rift Valley Fever (RVF),7765
+Marsabit,Mastitis,430
+Marsabit,Metritis,0
+Marsabit,Retained Placenta,9
+Marsabit,East Coast Fever(ECF),424
+Marsabit,None,0
+Marsabit,Enterotoxaemia,1422
+Marsabit,Contagious Bovine Pleuropneumonia (CBPP),312
+Marsabit,Acds,9
+Samburu,Flea Allergy Dermatitis,2
+Marsabit,ORF,71
+Marsabit,Abscess,383
+Marsabit,Fructure,7
+Marsabit,Fracture Of Tibia And Fibula,0
+Marsabit,Skin Abscess,0
+Marsabit,Peste des Petit Ruminants (PPR),20869
+Marsabit,Ephemeral Fever,19
+Marsabit,Coccidiosis,2
+Marsabit,Contagious Ecthyma,81
+Marsabit,Colic,1
+Marsabit,Ectoparasite Infestation,0
+Marsabit,Pg,0
+Marsabit,Acute Camel Death Syndrome,25
+Samburu,Helminthiasis,3195
+Marsabit,Cutenous Myiasis,0
+Taita Taveta,Helminthiasis,1723
+Garissa,Brucellosis,46
+Marsabit,Taeniosis,1
+Marsabit,Sheep Pox,705
+Marsabit,Eye Infection,40
+Marsabit,Not Confirmed Yet,60
+Taita Taveta,Babesiosis,11
+Marsabit,Upper respiratory infections,3
+Marsabit,Septic Wounds,5
+Marsabit,Foot Rot,4044
+Marsabit,Cut Wound,0
+Marsabit,Epmiral Fever,5
+Marsabit,Anaplasmosis,314
+Marsabit,Sores Around The Gums,2
+Marsabit,Retained Afterbirth,0
+Marsabit,Pink Eye,27
+Marsabit,Newcastle Disease (NCD),412
+Marsabit,N/A,41
+Baringo,Lumpy Skin Disease (LSD),1695
+Marsabit,Salmonellosis,8
+Taita Taveta,Acute Trypanosomiasis,39
+Taita Taveta,Pneumonia,1750
+Marsabit,Diarrhoea,101
+Marsabit,Pinkeye,1
+Marsabit,Calf Scours,22
+Marsabit,Ketosis/Hypocalcaemia,7
+Marsabit,Coenurosis,65
+Marsabit,Hynes Attacked,2
+Marsabit,Plant Poisoning,8
+Baringo,Sheep Pox,2055
+Marsabit,Late Abortion,15
+Marsabit,Injury,0
+Marsabit,Ruminal Tympany,2
+Taita Taveta,Heart Water,175
+Marsabit,ephemeral fever,1
+Marsabit,Retained Urine,21
+Marsabit,Listeriosis,10
+Marsabit,Foot And Rot,6
+Marsabit,Acute Camel Disease,36
+Marsabit,Dermatitis,3
+Marsabit,Subclinical Mastitis,2
+Marsabit,blue tongue,255
+Marsabit,Milk Fever,0
+Marsabit,Mange,2141
+Marsabit,Enteritis,2
+Marsabit,Blue Tongue Disease,259
+Marsabit,Canine Distemper (CD),70
+Marsabit,Infectious Bursai Disease (Gumboro),15
+Samburu,Skin Abscess,0
+Marsabit,Parvovirus,2
+Marsabit,Contagious Abortion,3
+Marsabit,Three Day Sickness,2
+Marsabit,Conjuctivitis,5
+Mombasa,Brucellosis,1
+Mombasa,Colic,0
+Mombasa,Animal bites,3
+Mombasa,Mange,2
+Mombasa,Helminthiasis,107
+Mombasa,Anaplasmosis,12
+Nairobi,Fowl Pox,90
+Nakuru,Helminthiasis,243
+Nakuru,Coenurosis,36
+Nakuru,Pneumonia,401
+Nakuru,Black Quarter,16
+Nakuru,Footrot,18
+Nakuru,East Coast Fever(ECF),64
+Nakuru,Brucellosis,193
+Nakuru,Animal bites,15
+Nakuru,Lumpy Skin Disease (LSD),40
+Nakuru,Trypanosomiasis,1
+Nakuru,Anthrax,30
+Nakuru,Abortion,3
+Nakuru,Bee Sting,2
+Nandi,Helminthiasis,0
+Nandi,Fracture,0
+Samburu,Peste des Petit Ruminants (PPR),11579
+Narok,Helminthiasis,953
+Narok,Stomach Enteritis,0
+Narok,Peste des Petit Ruminants (PPR),350
+Narok,Brucellosis,341
+Narok,Bee Sting,2
+Narok,Black Quarter,7
+Narok,Pink Eye,351
+Narok,Poisoning,231
+Narok,Contagious Caprine Pleuropneumonia (CCPP),498
+Narok,Enterotoxaemia,424
+Narok,Rift Valley Fever (RVF),15
+Samburu,Foot and Mouth Disease (FMD),5741
+Narok,Animal bites,124
+Narok,East Coast Fever(ECF),1041
+Narok,Pneumonia,83
+Nyamira,Contagious Caprine Pleuropneumonia (CCPP),105
+Nyamira,Anaplasmosis,1
+Nyandarua,Brucellosis,242
+Nyandarua,Abcess,5
+Nyandarua,Pneumonia,167
+Nyandarua,Uterine Infection,83
+Nyandarua,Contagious Caprine Pleuropneumonia (CCPP),57
+Nyandarua,Trypanosomiasis,5
+Nyeri,Mange,30
+Nyeri,Parvovirus,5
+Nyeri,Helminthiasis,45
+Nyeri,Brucellosis,73
+Nyeri,Enterotoxaemia,21
+Nyeri,Anaplasmosis,7
+Nyeri,East Coast Fever(ECF),27
+Samburu,East Coast Fever(ECF),582
+Samburu,Brucellosis,371
+Samburu,Diarrhoea,94
+Samburu,Contagious Caprine Pleuropneumonia (CCPP),6884
+Samburu,Pneumonia,1506
+Samburu,Pink Eye Infection,3
+Samburu,Mastitis,104
+Samburu,Photosensitization,0
+Samburu,Neurological Diseases,6
+Samburu,Lumpy Skin Disease (LSD),314
+Samburu,Rift Valley Fever (RVF),82
+Samburu,Dermatophycosis,4
+Samburu,Mange,382
+Samburu,Trypanosomiasis,241
+Samburu,Infection Coryza,25
+Samburu,Enterotoxaemia,230
+Samburu,Unkown,15
+Samburu,Wound,82
+Samburu,Fracture,0
+Samburu,0,482
+Samburu,Enteritis,13
+Samburu,Black Quarter,27
+Samburu,Wounds and Abrasion,2
+Samburu,Poisoning,38
+Samburu,Footrot,1027
+Samburu,Rabies,47
+Samburu,Animal bites,379
+Samburu,Anaplasmosis,293
+Samburu,Contagious Ecthyma,35
+Samburu,Contagious Skin Necrosis,6
+Samburu,None,3
+Samburu,Pink Eye,147
+Samburu,Goat Pox,164
+Samburu,Coccidosis,64
+Samburu,Infectious Bursai Disease (Gumboro),253
+Samburu,Wounds,235
+Samburu,Bluetongue Disease,1
+Kajiado,Anthrax,210
+Samburu,Bacterial Enteritis,4
+Samburu,Clinical Mastitis,2
+Samburu,Foot Abscess,0
+Samburu,Anestrus,1
+Samburu,Coryza,58
+Samburu,Worms Infestation,5
+Samburu,Parakeratosis,0
+Samburu,Fracture Of Radius And Ulna,0
+Samburu,Contagious Porcine Paralysis,36
+Samburu,Salmonellosis,3
+Samburu,Rab,0
+Samburu,Fowltyphoid,20
+Samburu,Coenurosis,61
+Tana River,Contagious Caprine Pleuropneumonia (CCPP),15155
+Siaya,Peste des Petit Ruminants (PPR),22
+Tana River,Helminthiasis,1690
+Tana River,Pneumonia,9071
+Siaya,Helminthiasis,81
+Siaya,Contagious Caprine Pleuropneumonia (CCPP),0
+Tana River,Foot Rot,231
+Siaya,Pneumonia,23
+Taita Taveta,Wound,17
+Taita Taveta,East Coast Fever(ECF),408
+Taita Taveta,Contagious Caprine Pleuropneumonia (CCPP),3220
+Taita Taveta,Brucellosis,128
+Taita Taveta,Helmethiasis,0
+Samburu,Diarrhea,280
+Taita Taveta,Hemorrhagic Septicemia,4
+Taita Taveta,Ephemeral Fever,231
+Taita Taveta,Haemorrhagic septicemia,32
+Kakamega,Ringworms,4
+Marsabit,Diahorrea,34
+Samburu,Johnes Disease,33
+Tana River,Trypanosomiasis,5702
+Samburu,Orf,162
+Taita Taveta,Contagious Ecthyma,26
+Taita Taveta,Miscarriage,3
+Taita Taveta,Hapatitis,0
+Taita Taveta,Pregnancy Test,0
+Kisumu,Septic Wound,0
+Taita Taveta,Abscess,69
+Bomet,Foot and Mouth Disease (FMD),393
+Kakamega,Cervical Prolapse,2
+Samburu,Sprain,74
+Taita Taveta,Peste des Petit Ruminants (PPR),495
+Vihiga,East Coast Fever(ECF),46
+Taita Taveta,Retained Afterbirth,0
+Taita Taveta,Goat Pox,626
+Taita Taveta,Enterotoxaemia,112
+Taita Taveta,Sheep Pox,624
+Makueni,Contagious Bovine Pleuropneumonia (CBPP),842
+Samburu,No,246
+Samburu,Acute Mastitis,12
+Vihiga,Helminthiasis,446
+Taita Taveta,Newcastle Disease (NCD),1370
+Busia,Parvovirus,3
+Samburu,Dystocia,1
+Siaya,Rabies,11
+Elgeyo/Marakwet,Abortion,0
+Taita Taveta,Wounds,6
+Baringo,Contagious Caprine Pleuropneumonia (CCPP),5305
+Baringo,Blue  Tongue,42
+Taita Taveta,Coccidosis,1123
+Vihiga,Anthrax,33
+Taita Taveta,Bluetongue,58
+Busia,African Swine Fever (ASF),38
+Taita Taveta,Mange,117
+Garissa,Sheep Pox,4907
+Taita Taveta,Rift Valley Fever (RVF),366
+Garissa,Goat Pox,1585
+Nakuru,Rabies,0
+Taita Taveta,Animal bites,108
+Taita Taveta,Lumpy Skin Disease (LSD),585
+Makueni,"",4
+Taita Taveta,Ring Worm,4
+Nakuru,Teat Warts,1
+Nyandarua,Lumpy Skin Disease (LSD),1063
+Nyandarua,Black Quarter,210
+Samburu,Tetanus,2
+Taita Taveta,Skin Abscess,0
+Elgeyo/Marakwet,Rabies,86
+Siaya,Overgrown Horns,1
+Kakamega,Enterotoxaemia,16
+Samburu,Verminous Pneumonia,173
+Taita Taveta,Enteritis,32
+Taita Taveta,Fracture Of Femur,0
+Marsabit,Leptospirosis,10
+Taita Taveta,Foot and Mouth Disease (FMD),555
+Bomet,Streptothricosis,0
+Vihiga,Allergy,2
+Taita Taveta,Ehrlichiosis,4
+Kakamega,Mastitis,23
+Kakamega,Mange,10
+Taita Taveta,Septicemia,2
+Kajiado,Rift Valley Fever (RVF),41
+Busia,Heart Water,38
+Elgeyo/Marakwet,Mineral Salt Defficiency,20
+Nyeri,Lumpy Skin Disease (LSD),102
+Taita Taveta,Infertility,6
+Marsabit,Menge,331
+Makueni,ephemeral fever,5
+Marsabit,Warbles,2
+Samburu,Skina Abscess,0
+Taita Taveta,Perineal Hernia,0
+Elgeyo/Marakwet,Coccidosis,1
+Tana River,Brucellosis,853
+Mombasa,Otitis Interner,1
+Mombasa,Mastitis,3
+Vihiga,Heart Water,453
+Vihiga,Mange,38
+Tana River,Infectious Coryza,72
+Tana River,Bluetongue,102
+Samburu,Retained Placenta,5
+Tana River,Mange,144
+Taita Taveta,Tick Fever,1
+Tana River,Anaplasmosis,826
+Taita Taveta,Fowltyphoid,50
+Tana River,Peste des Petit Ruminants (PPR),6633
+Marsabit,Suspected Brucellosis,1
+Kwale,Contagious Caprine Pleuropneumonia (CCPP),2014
+Makueni,None,10
+Kwale,Foot Rot,2
+Bomet,Telangiectasis,0
+Kajiado,Contagious Caprine Pleuropneumonia (CCPP),2007
+Samburu,Sheep Pox,935
+Busia,Ketosis,3
+Siaya,Trypanosomiasis,53
+Makueni,Ephemeral,0
+Siaya,Heart Water,73
+Siaya,Anaplasmosis,60
+Bomet,Liver cyrrhosis,0
+Tana River,Tick Infestation,15
+Tana River,Exophthalmos,0
+Marsabit,Wry neck,15
+Turkana,Contagious Bovine Pleuropneumonia (CBPP),26
+Vihiga,Anaplasmosis,57
+Turkana,Contagious Caprine Pleuropneumonia (CCPP),5087
+Meru,Trichomonas,5
+Mombasa,Contagious Caprine Pleuropneumonia (CCPP),10
+Nakuru,Salmonellosis,87
+Marsabit,Hynes Attacked and Killed 1 Bovine /Left 1 Injuries,2
+Tana River,Blue Tongue,150
+Narok,None,490
+Siaya,Strangulation,1
+Meru,Pneumonia,2
+Tana River,Hardware,0
+Tana River,Foot and Mouth Disease (FMD),6850
+Meru,Lumpy Skin Disease (LSD),6
+Elgeyo/Marakwet,Blue Tongue,5
+Tana River,Animal bites,406
+Tana River,orf,21
+Kilifi,Heart Water,10
+Makueni,Allergies,0
+Busia,Foot and Mouth Disease (FMD),44
+Kilifi,Trypanosomiasis,15
+Busia,Cutaneous Myiasis,9
+Elgeyo/Marakwet,Tetanus,8
+Kwale,Pneumonia,1294
+Kwale,Black Quarter,6
+Uasin Gishu,Helminthiasis,25
+Kwale,Heart Water,169
+Tana River,Lumpy Skin Disease (LSD),2317
+Samburu,Trauma,0
+Samburu,Chronic Mange Infestation,52
+Turkana,Lumpy Skin Disease (LSD),7448
+Baringo,Blue Tongue,3197
+Tana River,Sheep Enterotoximea,21
+Narok,Foot and Mouth Disease (FMD),1230
+Bomet,Fibrosis,0
+Tana River,Black Quarter,280
+Taita Taveta,Diarrhoea,94
+Vihiga,Pneumonia,1393
+Busia,Mastitis,14
+Tharaka-Nithi,Mastitis,26
+Uasin Gishu,Mange,7
+Samburu,Bluetongue,238
+Tharaka-Nithi,East Coast Fever(ECF),18
+Kakamega,Salmonellosis,1
+Tana River,Enterotoxaemia,20
+Kakamega,Foot and Mouth Disease (FMD),289
+Siaya,East Coast Fever(ECF),40
+Kisumu,Lumpy Skin Disease (LSD),1
+Elgeyo/Marakwet,Mastitis,6
+Vihiga,Newcastle Disease (NCD),370
+Baringo,Goat Pox,10876
+Kisumu,Parvovirus,3
+Busia,Pustular Dermatitis,4
+Siaya,Foot and Mouth Disease (FMD),35
+Makueni,Congestion,0
+Siaya,0,6
+Tana River,Goat Pox,9343
+Marsabit,Abortion,71
+Marsabit,Malaria,333
+Marsabit,Pheumonia,173
+Marsabit,Diarhroea,20
+Kitui,Foot and Mouth Disease (FMD),438
+Tana River,Camel Pox,97
+Marsabit,Wooden Tongue,20
+Bomet,Anthrax,124
+Busia,Poisoning,5
+Tharaka-Nithi,Pneumonia,147
+Samburu,Camel Pox,113
+Busia,Non,15
+Samburu,Suspected RVF,128
+Samburu,Retained Afterbirth,0
+Samburu,Fracture Of The Mandible,0
+Samburu,Knee Bruises,0
+Samburu,Skin Wounds,0
+Samburu,Camel Cough,77
+Samburu,Bloat And Constipation,0
+Nakuru,Anaplasmosis,14
+Siaya,Emaciation,2
+Kitui,Animal bites,43
+Vihiga,Black Quarter,26
+Taita Taveta,Abortion,1
+Elgeyo/Marakwet,0,15
+Vihiga,Foot and Mouth Disease (FMD),45
+Kisumu,Nsd,2
+Kwale,Trypanosomiasis,395
+Taita Taveta,Mastitis,90
+Busia,Traumatic Injury,1
+Busia,Anaestrus,1
+Nairobi,Rabies,16
+Marsabit,Organophosphate,0
+Siaya,Parvovirus,2
+Marsabit,Blue Tongue,2
+Vihiga,Retained Placenta,0
+Makueni,Newcastle Disease (NCD),3640
+Vihiga,Wart Infection,2
+Marsabit,Caprine arthritis,6
+Marsabit,Babeosis,101
+Busia,Abdominal Hernia,12
+Kitui,Heart Water,121
+Elgeyo/Marakwet,No,8
+Busia,Pink Eye,13
+Marsabit,Kerato Conjuctivities,1
+Taita Taveta,Leg Fracture,3
+Marsabit,Predation by Hynes,5
+Vihiga,Locia,1
+Nyandarua,Foot and Mouth Disease (FMD),27
+Siaya,Tryps,6
+Siaya,Helminthes,6
+Nyeri,Foot and Mouth Disease (FMD),119
+Marsabit,Torticolis,85
+Trans Nzoia,Pneumonia,205
+Turkana,Pneumonia,435
+Uasin Gishu,Pneumonia,285
+Uasin Gishu,Contagious Caprine Pleuropneumonia (CCPP),422
+Vihiga,Contagious Caprine Pleuropneumonia (CCPP),2498
+Taita Taveta,Limping,0
+Taita Taveta,Poor Body Condition,0
+Marsabit,Fowl paralysis,45
+Marsabit,Laryngotracheitis,26
+Siaya,Trauma,18
+Siaya,Bovine Papillomatosis,20
+Siaya,Lumpy Skin Disease (LSD),61
+Nandi,Anaplasmosis,3
+Kwale,Coccidosis,932
+Kwale,Newcastle Disease (NCD),1687
+Kwale,Enterotoxaemia,82
+Kwale,Orf,24
+Siaya,Streptothricosis,7
+Vihiga,Coccidosis,169
+Siaya,Mastitis,0
+Uasin Gishu,Anthrax,7
+Nairobi,Aggressiveness due to loneliness,2
+Siaya,Brucellosis,1
+Vihiga,Trypanosomiasis,78
+Taita Taveta,Demedicosis,37
+Taita Taveta,Myiasis,22
+Siaya,Oestrus ovina,0
+Siaya,Newcastle Disease (NCD),74
+Taita Taveta,Pink Eye Infection,69
+Nakuru,Sweating Sickness,0
+Taita Taveta,GIT Infection,41
+Marsabit,Vitamin D deficiency,12
+Taita Taveta,Fowl Pox,315
+Taita Taveta,Physical Trauma,2
+Kajiado,Foot and Mouth Disease (FMD),1480
+Elgeyo/Marakwet,Ephemeral Fever,3
+Mombasa,Ear Canker,21
+Uasin Gishu,East Coast Fever(ECF),12
+Makueni,Liver Abscess,1
+Samburu,Water Intoxication,30
+Samburu,Aflatoxin,12
+Makueni,Hide Limb Fracture,0
+Marsabit,Caseous Lymphanitis,35
+Nakuru,Sheep Pox,163
+Siaya,Fowl Pox,12
+Siaya,Goat Pox,2
+Marsabit,Circling,13
+Vihiga,Abscess,1
+Makueni,Retained Placenta,4
+Kisumu,0,2
+Siaya,Anaphylaxis,3
+Vihiga,Peste des Petit Ruminants (PPR),471
+Marsabit,Hyenas,1
+Vihiga,Compound Fructure,3
+Busia,Suspected Snake Bite,5
+Taita Taveta,Canine Distemper,0
+Busia,Cervical Prolapse In An Incalf Cow,1
+Nyandarua,Rabies,4
+Samburu,Septicemia,2
+Busia,Fowl Pox,624
+Samburu,Suspected TRP,1
+Kwale,Wound,6
+Laikipia,Rabies,2
+Vihiga,Enterotoxaemia,2
+Taita Taveta,Eye Infection,164
+Wajir,Contagious Caprine Pleuropneumonia (CCPP),2965
+Vihiga,0,26
+Elgeyo/Marakwet,Footrot,151
+Nyandarua,Anaplasmosis,10
+Marsabit,Caseous Lymphangitis,28
+Vihiga,Rabies,39
+Trans Nzoia,Tetanus,12
+Mombasa,Pneumonia,117
+Taita Taveta,Bloat,11
+Mombasa,Inflammation of Abomesum,9
+Nyeri,African Swine Fever (ASF),6
+Marsabit,Abortions,50
+Nakuru,0,50
+Marsabit,Eternal Parasite Infestation,25
+Kisumu,Pneumonia,4
+Kisumu,Metritis,6
+Taita Taveta,0,232
+Bungoma,Coccidosis,55
+Bungoma,Anthrax,2
+Uasin Gishu,Rabies,6
+Narok,0,17
+Makueni,Myasis,0
+Kitui,Tetanus,0
+Marsabit,Foot rot,65
+Marsabit,Babesiosis,367
+Marsabit,Eperythrozoon Bacteria,20
+Makueni,Mange,66
+Trans Nzoia,Foot and Mouth Disease (FMD),115
+Samburu,Umbilical Hernia,0
+Samburu,Metritis,6
+Bungoma,Tetanus,1
+Samburu,Fractured Carpals,0
+Samburu,Uterine Prolapse,0
+Samburu,Aflatoxicosis,5
+Bungoma,Enterotoxaemia,14
+Vihiga,Transmissible Venereal Tumour,3
+Samburu,tumour,0
+Makueni,Infectious Bronchitis,195
+Bungoma,Ehrlichiosis,3
+Marsabit,Conjunctivitis,21
+Samburu,Bacterial Mastitis,0
+Samburu,Mycosis,13
+Kwale,0,20
+Samburu,Decubitus Ulcer,0
+Samburu,Gape Worm Infestation,33
+Vihiga,Brucellosis,250
+Kajiado,Black Quarter,127
+Marsabit,Lack Of Minerals,3
+Samburu,Abscess,173
+Bungoma,Myasis,3
+Makueni,Tick Paralysis,3
+Marsabit,Atresia Ani,8
+Makueni,Bloat,0
+Kitui,Enterotoxaemia,63
+Kitui,Contagious Caprine Pleuropneumonia (CCPP),351
+Samburu,Heart Water,41
+Kilifi,Helminthiasis,15
+Samburu,Torsion,0
+Kilifi,East Coast Fever(ECF),16
+Samburu,Carpal Flexion Dystocia,0
+Samburu,Shipping Fever,0
+Samburu,Fascioliasis,130
+Samburu,Carpus Sprain,0
+Marsabit,Eperythrozoon Bactreria,30
+Samburu,Streptothricosis,7
+Tana River,Equine trypanosomiasis,3
+Kericho,Rabies,16
+Vihiga,Iron Deficiency,31
+Garissa,Anaplasmosis,471
+Vihiga,Horn Buds,1
+Vihiga,Locked Jaw/ Tetanus,5
+Kisumu,Black Quarter,36
+Garissa,Anthrax,255
+Kisumu,Ehrlichiosis,4
+Garissa,Peste des Petit Ruminants (PPR),8012
+Makueni,Fracture,2
+Bomet,Abscesses,0
+Makueni,Enterotoxaemia,22
+Garissa,Mange,193
+Garissa,Trypanosomiasis,1116
+Makueni,Parvovirus,25
+Kajiado,Newcastle Disease (NCD),12
+Vihiga,Streptococcis,900
+Vihiga,Camel Pox,6
+Kisumu,Trypanosomiasis,19
+Kwale,East Coast Fever(ECF),111
+Tana River,0,540
+Taita Taveta,Tick Bite Fever,3
+Nandi,Anthrax,30
+Taita Taveta,Orf disease,1
+Elgeyo/Marakwet,Poisoning,7
+Kwale,Rabies,6
+Marsabit,Keratoconjunctivities,47
+Elgeyo/Marakwet,Oestrus Ovis,19
+Kisumu,Anaplasmosis,20
+Marsabit,Worms,9
+Taita Taveta,R.A.B,0
+Makueni,Skin Infection,3
+Taita Taveta,"Respiratory Infection, Helminthiasis",3
+Bungoma,0,13
+Taita Taveta,Dystocia,12
+Marsabit,Helminthias,27
+Taita Taveta,Arthritis,3
+Kitui,Pneumonia,55
+Busia,Dermatophilosis,10
+Vihiga,Parvovirus,1
+Bungoma,Newcastle Disease (NCD),5
+Mombasa,Parvovirus,1
+Marsabit,Theileriosis,52
+Samburu,Ruminal Acidosis,12
+Narok,Blue Tongue,345
+Kitui,Trypanosomiasis,1022
+Siaya,Coenurosis,1
+Marsabit,Sheep scab,89
+Siaya,Poisoning,5
+Marsabit,hemorrhagic septicemia,15
+Mombasa,0,90
+Taita Taveta,Clinical Mastitis,2
+Marsabit,Orf,591
+Nakuru,African Swine Fever (ASF),70
+Taita Taveta,Keratoconjunctivitis,50
+Narok,Rabies,100
+Samburu,N/A,370
+Busia,Swine Erysipelas,68
+Samburu,Nutritional Diarrhea,25
+Busia,Shipping Fever,10
+Busia,Bovine Filariasis,3
+Marsabit,Helmenthiasis,15
+Kwale,Bacterial Infection,18
+Kwale,Manges,26
+Samburu,Mummified Fetus,0
+Makueni,Worms,3
+Samburu,Suspected CCPP,63
+Samburu,Traumatic Reticulopercarditis,25
+Nakuru,Foot and Mouth Disease (FMD),330
+Marsabit,Trpanosomiasis,0
+Bungoma,Infectious Bursai Disease (Gumboro),5
+Nakuru,Enterotoxaemia,60
+Marsabit,Manges,619
+Marsabit,"",18
+Samburu,Hypoglycemia,0
+Marsabit,Wry Neck,33
+Taita Taveta,Canine Distemper (CD),14
+Makueni,Respiratory Infection,3
+Vihiga,Iron,9
+Vihiga,Salmonellosis,10
+Vihiga,Vaginal Prolapse,1
+Nairobi,Contagious Bovine Pleuropneumonia (CBPP),15
+Samburu,Leg Wounds,0
+Vihiga,Mastitis,23
+Bungoma,East Coast Fever,0
+Samburu,Babesiosis,13
+Makueni,Injury,1
+Vihiga,Helminthisiasis,3
+Bungoma,Infectious Bronchitis,32
+Garissa,Wound,0
+Machakos,Infectious Bronchitis,50
+Makueni,Mastitis,16
+Wajir,Peste des Petit Ruminants (PPR),32244
+Vihiga,O,1
+Vihiga,Anaestrus,4
+Samburu,Skin Nodules,52
+Vihiga,Delayed Heat,2
+Vihiga,"Iron Deficiency,tooth & Tail Clipping",9
+Vihiga,Anorexic,5
+Vihiga,Pregnancy Diagnostic,1
+Tana River,Helmethiosis,58
+Marsabit,Calcium Deficiency,22
+Marsabit,Foot rote,6
+Marsabit,Foitrot,4
+Vihiga,Photosensitization,2
+Vihiga,Reproductive Disorder,3
+Siaya,Mange,5
+Garissa,Contagious Bovine Pleuropneumonia (CBPP),219
+Marsabit,Heamorhagic Septicemia,15
+Baringo,Peste des Petit Ruminants (PPR),4647
+Tana River,Helmenthiosis,64
+Turkana,Diarrhea,185
+Makueni,East Coast Fever,2
+Turkana,CCPP,65
+Turkana,Goat Pox,733
+Kajiado,Ecf,100
+Turkana,Orf,861
+Turkana,Chlamydia,11
+Nyandarua,East Coast Fever(ECF),9
+Taita Taveta,Footrot,84
+Makueni,Myiasis,3
+Turkana,Helminthiasis,1758
+Taita Taveta,Parvovirus,2
+Marsabit,Predation {Hyena},2
+Mombasa,Pullorium disease,50
+Mombasa,Enteritis,1
+Kitui,East Coast Fever(ECF),26
+Busia,Dietary Diarrhea,1
+Marsabit,Footrote,55
+Marsabit,Foot Abscess,78
+Makueni,Ephemeral Fever,5
+Vihiga,Clinical Mastitis,29
+Marsabit,Wildlife(Hynes Attacked),2
+Kisumu,Animal bites,11
+Mombasa,Rabies,6
+Marsabit,Vitamin Deficiencies,50
+Marsabit,Caseous Lymphanginitis,22
+Nyeri,Fowl Pox,60
+Marsabit,Qfever,23
+Turkana,Sheep scab,306
+Busia,Pink Eye Disease,6
+Baringo,Rabies,48
+Taita Taveta,Miases,4
+Samburu,Flea Infestation,2
+Baringo,Heart Water,35
+Turkana,Brucellosis,221
+Narok,Babesiosis,13
+Turkana,Plant Poisoning,115
+Marsabit,Eye Disease,1
+Marsabit,Skin Rashes And Manges,26
+Lamu,Lumpy Skin Disease (LSD),170
+Samburu,Upper respiratory infections,0
+Samburu,Mammary Gland Tumor,0
+Samburu,Malnutrition,1
+Samburu,Fetal Mummification,0
+Elgeyo/Marakwet,Goat Pox,8
+Marsabit,Equine influenza,66
+Turkana,Haemorrhagic Septicaemia,19
+Turkana,Heart Water,438
+Turkana,None,143
+Turkana,Trypanosomiasis,47
+Turkana,Enterotoxaemia,482
+Turkana,Helminth,76
+Makueni,V.Prolapse,0
+Turkana,Faecal Impaction,47
+Kakamega,Salmonelosis,3
+Marsabit,Kids Score,3
+Busia,Dystocia,58
+Marsabit,Fot rot,180
+Samburu,Skin Wound,29
+Elgeyo/Marakwet,Babesiosis,0
+Nakuru,Fowl Pox,40
+Turkana,0,119
+Nyandarua,Stomatitis,16
+Makueni,H.S,3
+Taita Taveta,Myaisis,0
+Kisumu,Anthrax,3
+Marsabit,Respiratory Complex,33
+Nyandarua,Poisoning,3
+Kajiado,Contagious Bovine Pleuropneumonia (CBPP),21
+Marsabit,Eye Injury,3
+Samburu,Haemorrhagic septicemia,79
+Marsabit,Coneurosis,25
+Makueni,Insect Bite,3
+Kiambu,Foot and Mouth Disease (FMD),8
+Kwale,Poisoning,41
+Makueni,Canine Distemper (CD),13
+Makueni,Kidney Stones,1
+Nyandarua,Photosensation,9
+Vihiga,Ringworms,8
+Kwale,Management,35
+Marsabit,Wounds,20
+Kwale,Leptospirosis,1
+Kisumu,Johnes Disease,23
+Nyeri,Rabies,2
+Samburu,Mycotoxicosis,0
+Vihiga,Animal bites,16
+Makueni,Route Management Program,2
+Makueni,Repeat Breeder Syndrome,1
+Kakamega,Johnes Disease,1
+Machakos,Foot and Mouth Disease (FMD),0
+Nyamira,Black Quarter,0
+Elgeyo/Marakwet,Sheep Pox,10
+Kajiado,Orf,200
+Laikipia,Lumpy Skin Disease (LSD),1755
+Marsabit,White Muscle,147
+Taita Taveta,Tuberculosis,12
+Marsabit,Wild Life Attacked,1
+Makueni,Normal,0
+Siaya,Babesiosis,8
+Samburu,Hypocalcemia,0
+Baringo,blue tongue,120
+Tana River,Sheep Pox,1343
+Makueni,Haemorrhagic Septicemia,57
+Samburu,Bloat,109
+Tana River,Rift Valley Fever (RVF),63
+Makueni,Food Poisoning,7
+Vihiga,Tumour,6
+Vihiga,Manges,5
+Kwale,Septicemia,51
+Marsabit,Anaplamosis,1
+Marsabit,Wildlife Attacked,2
+Baringo,Pneumonia,32
+Taita Taveta,"Trypanosomiasis, Respiratory Infection",3
+Baringo,Enterotoxaemia,66
+Taita Taveta,Pink Eye,12
+Elgeyo/Marakwet,Retained Placenta,0
+Marsabit,Fever,196
+Marsabit,Eye Problem,66
+Marsabit,Lymphatic Nodes Swelling,24
+Kakamega,Dermatitis,4
+Garissa,Contagious Ecthyma,1600
+Makueni,Skin Allergy,2
+Baringo,Poisoning,4
+Samburu,Contagious Bovine Pleuropneumonia (CBPP),40
+Taita Taveta,Orf Virus,110
+Makueni,Coccidosis,1510
+Trans Nzoia,Black Quarter,15
+Makueni,Tumor,0
+Marsabit,Respiratory Problem,50
+Taita Taveta,Bacteria Scours,1
+Vihiga,TRP,0
+Makueni,Enteritis,33
+Vihiga,Dislocation,10
+Marsabit,footrot,759
+Marsabit,TBDs,2791
+Marsabit,Vectors,450
+Marsabit,"TBDs,TRYPS",68
+Marsabit,White Muscle Disease,21
+Marsabit,Bitten By Hyena,12
+Marsabit,Parasites,619
+Kitui,Pimply Guts,0
+Taita Taveta,Entritis,9
+Taita Taveta,NSD,0
+Kwale,Anaplasmosis,125
+Kwale,"",30
+Kwale,Foot and Mouth Disease (FMD),198
+West Pokot,Anaplasmosis,48
+Taita Taveta,Stinging,2
+Kwale,Retained afterbirth,0
+Vihiga,Iron Defficiency,0
+Marsabit,Pink Eyes,35
+Taita Taveta,Uterine Irrigation,0
+Marsabit,Babesios,2
+Marsabit,Eperythrozoon,2
+West Pokot,East Coast Fever(ECF),115
+Kitui,Newcastle Disease (NCD),1530
+Samburu,Tumour,0
+Samburu,Peritonitis,0
+Samburu,Pyrethrin Poisoning,0
+Meru,East Coast Fever(ECF),6
+Vihiga,Grass Tetany,2
+Samburu,Worm Infestation,37
+Busia,Menges,3
+Kakamega,Diarrhoea,3
+Taita Taveta,Anaplasmosis....DDx ECF,0
+Marsabit,Avian leucosis,50
+Elgeyo/Marakwet,Dystochia,5
+Samburu,Sprain Of The Elbow Joint,0
+Samburu,Stomatitis And Mammilitis,3
+Samburu,Acute Pneumonia,3
+Nakuru,Contagious Caprine Pleuropneumonia (CCPP),15
+Kwale,Envenomation,20
+Elgeyo/Marakwet,Retained,1
+Nairobi,0,1
+Makueni,HS,6
+West Pokot,Sinusitis,1
+Kilifi,Newcastle Disease (NCD),15
+Samburu,Ectoparasites Infestation,0
+Narok,Trypanosoma,0
+Meru,Mastitis,7
+Kitui,Lumpy Skin Disease (LSD),15
+Taita Taveta,Nsd,2
+West Pokot,Helminthiasis,0
+Meru,Peste des Petit Ruminants (PPR),50
+Marsabit,Uterine Prolapse,21
+Kitui,Coccidosis,60
+Tharaka-Nithi,Anaplasmosis,42
+Tharaka-Nithi,Lumpy Skin Disease (LSD),232
+Makueni,"Hydatidosis, Helminthiasis ",0
+Makueni,Hydatidosis,0
+Taita Taveta,Fowl Typhoid,85
+Marsabit,Infectious Bronchitis,47
+Samburu,Lameness,5
+Makueni,Post Parturient Treatment,2
+Samburu,Poor Milking Technique Causing Pain,1
+Laikipia,Traumatic Reticulopericarditis,2
+Laikipia,Peste des Petit Ruminants (PPR),293
+Makueni,Hydatid Cyst,1
+West Pokot,Peste des Petit Ruminants (PPR),4344
+Makueni,Heamoligic Septicemia,1
+Kwale,Abscess,4
+Vihiga,Canine Distemper (CD),1
+Tana River,Contagious Bovine Pleuropneumonia (CBPP),374
+Narok,Sheep scab,18
+Tana River,Haemorrhagic septicemia,2225
+Tana River,Injury,53
+Samburu,Auricular Hematoma,0
+Samburu,Foot Rot,80
+Turkana,Camel Pox,21
+Samburu,Tick Infestation,13
+West Pokot,Fungul,1
+Taita Taveta,Uterine Prolapse,2
+Taita Taveta,Fowl typhoid,40
+Lamu,Choke,20
+Samburu,Humeral Fracture,0
+Kilifi,Pneumonia,51
+Samburu,Dermatomycosis,0
+Makueni,Tetanus,3
+Taita Taveta,Enteritis 0,5
+Marsabit,Actinomycosis,20
+Taita Taveta,Johnes Disease,10
+Tharaka-Nithi,Foot and Mouth Disease (FMD),112
+Taita Taveta,Infectious Coryza,40
+Taita Taveta,Foot rot,2
+Taita Taveta,Trypanosomiasis DDx Mineral Deficiency,2
+Marsabit,Lymph Swelling,31
+Marsabit,Edema With Pus,17
+Marsabit,Pullorium disease,14
+Tharaka-Nithi,Anthrax,53
+Samburu,Footh Rot,70
+Taita Taveta,Warts,4
+Taita Taveta,Metritis,1
+Marsabit,Wary Neck,32
+Marsabit,Sarcoptic Mange,32
+Marsabit,Infectious Coryza,16
+Taita Taveta,Poisoning,1
+Taita Taveta,Rabies,2
+Turkana,Foot Rot,23
+Migori,Lumpy Skin Disease (LSD),2
+Kwale,Kennel cough,6
+Nairobi,White Muscle,53
+Narok,Lumpy Skin Disease (LSD),50
+Nairobi,AFLATOXICOSIS,8
+Nairobi,White Bacilary Diarrhoea,150
+Nairobi,O,2
+Nairobi,Aflatoxicosis,5
+Taita Taveta,Nerval Illness,85
+Vihiga,Diqrrhoea due lush pasture,20
+Tharaka-Nithi,None,5
+Wajir,None,200
+Taita Taveta,Heartwater Disease,3
+Taita Taveta,Hypocalcaemia,2
+Samburu,Sheep scab,49
+Isiolo,Footrot,310
+Isiolo,Pneumonia,315
+Makueni,Fowl Pox,570
+Isiolo,Menge,129
+Isiolo,Abscesses,0
+Elgeyo/Marakwet,Redwater,7
+Tana River,Septicaemia/Salmonella,75
+Kakamega,Bee Stings,0
+Isiolo,Helminthiasis,309
+Taita Taveta,Castration,2
+Isiolo,Disease Characterized By General Elongation Of Hooves Leading To Lameness,15
+Kitui,Bovine Ephemeral Fever,3
+Busia,Traumatic Deep Cut,3
+Embu,Lumpy Skin Disease (LSD),3204
+Samburu,Hemonchosis,276
+Samburu,Calf Scours,2
+Taita Taveta,Eye Infection/Keratoconjunctivitis,18
+Tharaka-Nithi,Brucellosis,11
+Samburu,Gape Worm,18
+Samburu,Infectious Coryza,25
+Marsabit,Trapnomiasis,1
+Vihiga,Mastitis/blocked Teat,9
+Vihiga,Fowl Pox,100
+Tana River,Sheep scab,12
+Samburu,Transmissible Venereal Tumor,3
+Marsabit,Endometritis,17
+Vihiga,Retained Afterbirth,2
+West Pokot,Retain Placenta,2
+Laikipia,Animal bites,2000
+Isiolo,Contagious Caprine Pleuropneumonia (CCPP),143
+Isiolo,0,43
+Busia,Downer Cow Syndrome,2
+Vihiga,Babesiosis,0
+Garissa,Babesiosis,87
+Samburu,Photosensitivity,1
+Samburu,Rhinitis,1
+Taita Taveta,Black Quarter,18
+Samburu,Ephemeral Fever,25
+Samburu,Actinobacillosis,0
+Makueni,Suspected Fmd,2
+West Pokot,Contagious Caprine Pleuropneumonia (CCPP),94
+Taita Taveta,Vaginal Prolapse,400
+Samburu,Aflatoxin Poisoning,0
+Samburu,Parvovirus,5
+Tharaka-Nithi,Helminthiasis,1
+Tharaka-Nithi,Trypanosomiasis,13
+Taita Taveta,Hypocalcimia,0
+Tharaka-Nithi,Non specific disease,0
+Tana River,Broken Hind Limb,0
+Kajiado,Peste des Petit Ruminants (PPR),1119
+Kakamega,Coccidosis,8
+Tana River,Diarrhoea,0
+West Pokot,Lumpy Skin Disease (LSD),687
+West Pokot,Mange,6
+Taita Taveta,Retained  Afterbirth,0
+Busia,Food Poisoming,28
+Taita Taveta,Retain After Birth,1
+Taita Taveta,1,1
+Kakamega,Dermatophilosis,1
+Taita Taveta,No,2
+Samburu,Glossitis,0
+Marsabit,Hynes Predation,2
+Vihiga,Pink Eye,13
+Marsabit,Predation,1
+Busia,Lameness,9
+Narok,Trypanosomiasis,88
+Samburu,Eye Infection,55
+Makueni,Ascites,3
+Samburu,Haemonchosis,13
+Kajiado,None,1000
+Marsabit,Swollen Edema With Pus,25
+Taita Taveta,None,9
+Marsabit,Wrinkles Nack,12
+Taita Taveta,Respiratory Infection,0
+Makueni,Diarrhea,3
+Taita Taveta,Postpartum Uterine Infection,0
+Taita Taveta,Infectious Corrhiza,40
+Kericho,Foot and Mouth Disease (FMD),25
+Uasin Gishu,Mastitis,3
+Kericho,Lumpy Skin Disease (LSD),503
+Kitui,DHLP,0
+Kitui,Peste des Petit Ruminants (PPR),40
+Lamu,Foot Rot,20
+Laikipia,Fowl Pox,233
+Taita Taveta,Retained After birth,1
+Vihiga,Fowl Typhoid,298
+Taita Taveta,RAT,275
+Wajir,0,35
+Wajir,Pneumonia,1250
+Taita Taveta,Anaemia,3
+Tharaka-Nithi,Foot Rot,1
+Tharaka-Nithi,Numbness,0
+Tana River,Abscess,0
+Samburu,Paraphimosis,1
+Embu,Foot and Mouth Disease (FMD),110
+Kwale,Amoebiasis,6
+Kakamega,Fowl Typhoid,30
+Kwale,Dermatophilosis,5
+Taita Taveta,Milkman disease,1
+Busia,Dermatophytosis,1
+Laikipia,Foot and Mouth Disease (FMD),22
+Taita Taveta,Vibriosis,0
+Kericho,Black Quarter,5
+Siaya,African Swine Fever (ASF),1
+Kilifi,Mange,8
+Taita Taveta,Trypanosomiasis....ddx Respiratory Infection,4
+Kwale,Mange,28
+Taita Taveta,Postpertum Uterine Infection,0
+Marsabit,Swelling Of Glands,16
+Narok,Dystocia,6
+Taita Taveta,Myasis,1
+Narok,Highly Pathogenic Avian Influenza (HPAI),50
+Tharaka-Nithi,mastitis,2
+Tharaka-Nithi,0,22
+Marsabit,Gun Shot Wounds,0
+Samburu,Fowl Pox,12
+Vihiga,Dystocia,0
+Vihiga,Bee Sting,0
+Laikipia,Pneumonia,31
+Makueni,Ringworms,1
+Kakamega,Heart Water,3
+Busia,Clinical Mastitis,27
+Tharaka-Nithi,Kennel cough,0
+Busia,Dislocation,46
+Kitui,0,0
+Taita Taveta,Dehorning,1
+Taita Taveta,Colic,2
+Laikipia,East Coast Fever(ECF),63
+Laikipia,Anaplasmosis,3
+Laikipia,Coccidosis,300
+Samburu,Traumatic Reticuloperitonitis,2
+Samburu,Foot Injury,53
+Taita Taveta,RAB,1
+Vihiga,Mummified foetus,0
+Busia,Canine Distemper (CD),7
+Samburu,Tick  Fever,18
+Tana River,Yes,300
+Turkana,Anaplasmosis,2
+Busia,Cutaneous Wounds(Fungal),4
+Vihiga,Stomach Enteritis,8
+Vihiga,Thelezia,3
+Kwale,Lumpy Skin Disease (LSD),93
+Kitui,Myiasis,0
+Taita Taveta,Salmonellosis,30
+Nakuru,Not Known,2
+Tharaka-Nithi,O0,10
+Lamu,Nil,30
+Narok,Malignant Cuttehral Fever,150
+Tana River,Orf,120
+Tana River,1,120
+Kitui,Mange,0
+Tana River,Kennel cough,2
+Marsabit,High Fever,86
+Marsabit,Anaplasmosis Babesiosis and Eperythrozoon Bacteria,7
+Tharaka-Nithi,O,2
+Tharaka-Nithi,Milk Fever,0
+Kitui,Ehrlichiosis,0
+Taita Taveta,Cervical Injury,0
+Makueni,Lympadenities,3
+Taita Taveta,Insect Bite,1
+Marsabit,"Anaplasmosis,Babesiosis and Theileria",10
+Marsabit,Helminths,0
+Marsabit,Helmets,0
+Embu,Rabies,22
+Makueni,Conjunctivitis,4
+Marsabit,Camel Cough,292
+Embu,Anthrax,5
+Vihiga,Rolling Tongue,2
+Vihiga,Retained After Birth,3
+Samburu,Stick Tight Fleas,16
+Tharaka-Nithi,Git Infection,0
+Tharaka-Nithi,Retained Afterbirth,1
+Tana River,None,2
+Taita Taveta,parturition eodema,0
+Samburu,Puncture Wound,68
+Taita Taveta,Hypocalcemia,1
+Kwale,Mange Mites,76
+Lamu,Rabies,82
+Tharaka-Nithi,Canine Distemper (CD),21
+Kwale,No,31
+Tana River,Coccidosis,843
+Nakuru,African Horse Sickness,5
+Nakuru,Non,11
+Nyandarua,Non,88
+Marsabit,Strangles,4
+Laikipia,Helminthiasis,275
+Machakos,Rabies,5
+Nairobi,Lumpy Skin Disease (LSD),10
+Nakuru,Newcastle Disease (NCD),2
+Nyeri,Pneumonia,39
+Kericho,Foot And Mouth,150
+Taita Taveta,Masty,1
+Vihiga,Sprain,0
+Kwale,Bloat,0
+Kwale,pink eye,0
+Nyandarua,Wax Moth,10
+Makueni,Fascioliasis,0
+Makueni,Helminthes,5
+Garissa,Animal bites,23
+Makueni,Hydronephrosis,2
+Nakuru,Infectious Coryza,10
+Kakamega,Vaginitis,1
+Machakos,Lumpy Skin Disease (LSD),1
+Kwale,Infectious Bronchitis,103
+Kwale,Fowl Pox,33
+Tana River,Parvovirus,2
+Siaya,Orf,16
+Vihiga,Lice Infestation,0
+Meru,Foot and Mouth Disease (FMD),1000
+Busia,Paraphimosis,1
+Busia,Keratoconjutivitis,42
+Busia,Peste des Petit Ruminants (PPR),1
+Taita Taveta,Helmenthiasis,0
+Nakuru,Calf Scours,1
+Kwale,wound,0
+Turkana,Rabies,30
+Taita Taveta,Leg Injury,0
+Tharaka-Nithi,Coccidosis,2
+Bomet,Fatty Degeneration,0
+Nakuru,Parvovirus,3
+Vihiga,Ruminal Tympany,3
+Marsabit,Camel Abscess,6
+Taita Taveta,Skin Infection,1
+Taita Taveta,Grain Overload,4
+Nyamira,Foot and Mouth Disease (FMD),50
+Samburu,Uterus Prolapse,12
+Samburu,Goat Dystentry,52
+Marsabit,Milk fever,17
+Marsabit,Feline Dermatitis,2
+Taita Taveta,Infectous Corryza,50
+Kwale,Helmenthesis,32
+Kajiado,Sheep scab,42
+Makueni,Iron Deficiency,0
+Kajiado,Leptospirosis,180
+Bomet,Abscess,0
+Busia,Injury,8
+Vihiga,Laceration,8
+Tharaka-Nithi,Black Quarter,8
+Makueni,Premature Birth,0
+Makueni,Thorn Prick,0
+Lamu,Contagious Bovine Pleuropneumonia (CBPP),300
+Kwale,Sheep Pox,15
+Makueni,Sheep scab,0
+West Pokot,Trypanosomiasis,118
+West Pokot,Rift Valley Fever (RVF),118
+Kwale,Mastitis,5
+Makueni,Eye Infection,0
+Kwale,Metal Cut Wound,2
+Kwale,Salmonellosis,0
+Trans Nzoia,Hydatidosis,0
+Tharaka-Nithi,Goat Pox,2
+Vihiga,Heartwater,5
+Vihiga,Menges,4
+Vihiga,Diamond,0
+Busia,Stomach Enteritis,3
+Vihiga,Poisoning,0
+Elgeyo/Marakwet,Mange Infestation,80
+Samburu,Sodium Selenite Hypersensitivity,0
+Makueni,Abscess,1
+Makueni,Prolapse,1
+Samburu,Bacterial Diarrhea,21
+Turkana,Camel Mange,41
+Makueni,Routine Check Up,25
+Makueni,Heat Synchronization,0
+Makueni,Syphilis,0
+Mombasa,Lumpy Skin Disease (LSD),14
+Makueni,Myopericarditis,6
+Makueni,Anaemia,8
+Makueni,Calving,5
+Makueni,Hoof Trimming,0
+Makueni,Clinical Mastitis,3
+Kakamega,Poisoning,3
+Kakamega,Dermatomycosis,13
+Kakamega,Warts,5
+Kwale,Scepticaemia,5
+Kwale,Canine Distemper (CD),2
+Kwale,Ticks Infestation,5
+Marsabit,Vaginal Prolapse,1
+Vihiga,Infertility  Disease,1
+Lamu,Contagious Caprine Pleuropneumonia (CCPP),559
+Taita Taveta,Uterine Infection,0
+Kwale,Pneumonia And Mange,3
+Laikipia,Hemonchosis,800
+Taita Taveta,Orf,56
+Taita Taveta,Unknown,0
+Taita Taveta,Off Disease,14
+Taita Taveta,Eye infection,35
+Taita Taveta,Mange/Ear Cancer,1
+Taita Taveta,Milk Fever,8
+Taita Taveta,East Coast Fever,2
+Vihiga,Gangrenous Disease,175
+Vihiga,Arthritis,0
+Marsabit,Swelling Lymph Nodes,114
+Marsabit,Respiratory Complications,61
+Taita Taveta,Contagious Bovine Pleuropneumonia (CBPP),4
+Samburu,Sprain On Left Hind Limb,84
+Taita Taveta,Dog Bite,100
+Laikipia,Foot Rot,400
+Vihiga,Helmenthiasis,0
+Vihiga,Benign tumour of mammary gland,1
+Samburu,Traumatic Pericarditis,85
+Kajiado,Goat Pox,86
+Samburu,Severed Artery,0
+Lamu,Fowl Pox,30
+Lamu,Foot and Mouth Disease (FMD),111
+Baringo,"",10
+Taita Taveta,Bottle Jow Oedema(malnutrition),50
+Baringo,Bluetongue,31
+Taita Taveta,CRDB(chronic Respiratory Disease),50
+Taita Taveta,Traumatic Injury,10
+Taita Taveta,Malnutrition Especially Protein Deficiency,5
+Tana River,Heart Water,61
+Kwale,Injury,4
+Bungoma,Black Quarter,15
+Migori,Rift Valley Fever (RVF),83
+Kisii,Anthrax,3
+Taita Taveta,Hydatid,0
+Samburu,Warts,83
+Homa Bay,Foot and Mouth Disease (FMD),8
+Turkana,Diarrhoea,303
+Taita Taveta,Bite Injury,3
+Lamu,Animal bites,31
+Busia,Ketosis/Enterotoxaemia,3
+Lamu,Trypanosomiasis,36
+Lamu,Pink Eye,10
+Lamu,Enterotoxaemia,10
+Turkana,Newcastle Disease (NCD),1
+Wajir,Foot and Mouth Disease (FMD),300
+Makueni,Toxins,147
+Tharaka-Nithi,Enterotoxaemia,3
+Kwale,Diarrhea,3
+Bungoma,Orf,9
+Wajir,Goat Pox,200
+Kakamega,Kennel cough,5
+Vihiga,Downer cow syndrome,2
+Wajir,Animal bites,163
+Vihiga,Ascites,1
+Vihiga,Uterine Prolapse,2
+Vihiga,Hardware,0
+Siaya,Bloat,7
+Busia,Bovine Salmonellosis,4
+Kakamega,Parvovirus,3
+Isiolo,Foot and Mouth Disease (FMD),44
+Taita Taveta,Pyometra,0
+Trans Nzoia,Helminthiasis,18
+Tharaka-Nithi,Cowdriosis,3
+Tharaka-Nithi,Trichomoniasis,0
+Tharaka-Nithi,Heart Water,0
+Meru,Hardware,1
+Tharaka-Nithi,Rabies,0
+Vihiga,Milk Fever,1
+Meru,Abscess,2
+Vihiga,Effects Of Dexamethasone,9
+Vihiga,Profuse Diarrhoea,30
+Vihiga,Postparturent Agalactia,1
+Wajir,Rabies,838
+Taita Taveta,Matitis,0
+Tana River,Newcastle Disease (NCD),31
+Trans Nzoia,Calfscours Disease,1
+Laikipia,Infectious Bursai Disease (Gumboro),550
+Vihiga,Goat Pox,75
+Tana River,Fowl Typhoid,215
+Wajir,Haemorrhagic septicemia,42
+Mombasa,Anthrax,75
+Embu,Brucellosis,10
+Taita Taveta,Heavy Breathing,5
+Baringo,Johnes Disease,4
+Busia,Babesiosis,11
+Taita Taveta,Tryps and Helminthiasis,1
+Kwale,CRD,42
+Bungoma,Hyenas Bite,51
+Samburu,Non Specific Diarrhoea,57
+Elgeyo/Marakwet,Retained  After Birth,1
+Kisumu,1,3
+Wajir,Anaemic,120
+Makueni,Post Parturient Bleeding,0
+Makueni,Dog Bite,3
+Isiolo,Goat Pox,364
+Nairobi,Pneumonia,0
+Vihiga,Traumatic of eye,1
+Kwale,Dermatitis,5
+Tana River,Foot rot,20
+Lamu,Helminthiasis,46
+Makueni,Stress,1
+Bungoma,Swine dysentery,4
+Bungoma,Mastitis,2
+Kitui,Babesiosis,0
+Kitui,Sarcoid,0
+Siaya,enterotoxaemia,19
+Trans Nzoia,Infectious Bronchitis,75
+Kakamega,Dermatophylosis,10
+Siaya,Enterotoxaemia,14
+Kajiado,Pneumonia,17
+Tharaka-Nithi,Cellulitis,10
+Marsabit,Foot root,120
+Marsabit,Foot Root,30
+Kakamega,Pink Eye Infection,8
+Taita Taveta,Suspected Canine tick Borne Fever (Babesiosis and Or Canine Ehrlichiosis.,1
+Siaya,Black Quarter,10
+Kajiado,Babesiosis,5
+Narok,Ocular Opacity,45
+Narok,Cuten,15
+Siaya,N/A,0
+Siaya,Dermatitis,0
+Makueni,Contagious keratoconjunctivitis,6
+Siaya,Bee Bite,5
+Siaya,Eye Infection,6
+Bungoma,Food Poison,4
+Baringo,Animal bites,21
+Baringo,Damerthophylosis,7
+Kericho,Anthrax,2
+Siaya,Dermatomycosis,8
+Baringo,Non,10
+Makueni,Leptospirosis,8
+Marsabit,Foot Rote,335
+Marsabit,Bovine Ephemeral Fever,10
+Marsabit,Footroot,10
+Marsabit,Snake Bite,8
+Kwale,Goat Pox,50
+Mombasa,Johnes Disease,6
+Siaya,Carpal Abrassion Wound,1
+Vihiga,Warts,0
+Turkana,"",103
+Turkana,Foot rot,124
+Lamu,Pneumonia,7
+Baringo,Newcastle Disease (NCD),120
+Trans Nzoia,Salmonelosis,6
+Trans Nzoia,Mastitis,3
+Baringo,0,21
+Taita Taveta,Skin Deases,50
+Nyeri,Orf,9
+Mombasa,Newcastle Disease (NCD),21
+Siaya,Vibriosis,3
+Samburu,Ophthalmitis,57
+Busia,Atrophic rhinitis,0
+Marsabit,Dytocia,32
+Taita Taveta,Fungal Infection,3
+Kajiado,Heart Water,30
+Kilifi,Lumpy Skin Disease (LSD),20
+Uasin Gishu,Enterotoxaemia,5
+Uasin Gishu,Anaplasmosis,4
