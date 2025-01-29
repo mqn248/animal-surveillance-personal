@@ -1,4 +1,4 @@
-county,sub_county,Disease/ Condition,value
+county,sub_county,Disease_Condition,value
 Baringo,Mogotio,Anaplasmosis,2
 Baringo,Baringo North,Foot and Mouth Disease (FMD),24
 Baringo,Baringo North,Anaplasmosis,26
@@ -664,7 +664,7 @@ Taita Taveta,Voi,Mange,39
 Taita Taveta,Voi,Sheep Pox,457
 Makueni,Mbooni,Foot and Mouth Disease (FMD),101
 Makueni,Makueni,Foot and Mouth Disease (FMD),875
-Makueni,Mbooni,"",4
+Makueni,Mbooni,,4
 Taita Taveta,Mwatate,Ring Worm,4
 Taita Taveta,Mwatate,Sheep Pox,117
 Taita Taveta,Mwatate,Rift Valley Fever (RVF),15
@@ -1233,7 +1233,7 @@ Bungoma,Mt. Elgon,Infectious Bursai Disease (Gumboro),5
 Nakuru,Naivasha,Enterotoxaemia,45
 Makueni,Mbooni,Rabies,57
 Marsabit,Moyale,Manges,619
-Marsabit,Moyale,"",18
+Marsabit,Moyale,,18
 Samburu,Samburu West,Hypoglycemia,0
 Marsabit,Saku,Helminthiasis,44
 Marsabit,Moyale,Wry Neck,33
@@ -1302,7 +1302,7 @@ Marsabit,Moyale,Heamorhagic Septicemia,15
 Baringo,Baringo North,Peste des Petit Ruminants (PPR),619
 Garissa,Dadaab,Trypanosomiasis,102
 Wajir,Wajir West,Peste des Petit Ruminants (PPR),1092
-Bungoma,Mt. Elgon,00,2
+Bungoma,Mt. Elgon,0,2
 Tana River,Bura,Helmenthiosis,64
 Nakuru,Kuresoi North,East Coast Fever(ECF),3
 Turkana,Turkana East,Diarrhea,185
@@ -1533,7 +1533,7 @@ Taita Taveta,Mwatate,Entritis,3
 Taita Taveta,Voi,NSD,0
 Kwale,Matuga,Trypanosomiasis,80
 Kwale,Kinango,Anaplasmosis,112
-Kwale,Kinango,"",30
+Kwale,Kinango,,30
 Vihiga,Vihiga,East Coast Fever(ECF),2
 Kwale,Kinango,Foot and Mouth Disease (FMD),198
 West Pokot,Kapenguria,Anaplasmosis,48
@@ -2199,7 +2199,7 @@ Tana River,Galole,Infectious Coryza,12
 Tana River,Garsen,Foot and Mouth Disease (FMD),4487
 Tana River,Garsen,Contagious Caprine Pleuropneumonia (CCPP),294
 Kilifi,Kaloleni,Helminthiasis,15
-Baringo,Eldama Ravine,"",10
+Baringo,Eldama Ravine,,10
 Isiolo,Isiolo,Pneumonia,25
 Taita Taveta,Voi,Bottle Jow Oedema(malnutrition),50
 Baringo,Eldama Ravine,Peste des Petit Ruminants (PPR),10
@@ -2405,7 +2405,7 @@ Makueni,Makueni,Mange,4
 Mombasa,Kisauni,Johnes Disease,6
 Siaya,Alego Usonga,Carpal Abrassion Wound,1
 Vihiga,Sabatia,Warts,0
-Turkana,Turkana West,"",103
+Turkana,Turkana West,,103
 Baringo,Tiaty,Peste des Petit Ruminants (PPR),65
 Turkana,Turkana West,Foot rot,124
 Kakamega,Butere,Pneumonia,5

@@ -1,4 +1,6 @@
 library(pacman)
+library(bslib) 
+library(lubridate)
 p_load(
   DBI,
   sf,
@@ -34,6 +36,7 @@ p_load(
 # Importing data ----------------------------------------------------------
 # clean dataset
 data1<-st_read("data/Cleaned Animal data.csv")
+
 # aggregated data
 aggregare_sick = fread("data/aggregate_sick.csv")
 aggregare_risk= fread("data/aggregate_risk.csv")
@@ -41,6 +44,9 @@ aggregare_humans= fread("data/aggregate_humansAffected.csv")
 aggregare_dead = fread("data/aggregate_dead.csv")
 aggregare_vaccinated = fread("data/aggregate_vaccinated.csv")
 aggregare_groupings = fread("data/aggregate_groupings.csv")
+aggregate_breed = fread("data/aggregate_breed.csv")
+data_subcounty = fread("data/data_subcounty.csv")
+data2 = fread("data/data2.csv")
 
 # county
 county1 <- st_read("shapefiles/County.shp", quiet = T)|> 
@@ -53,6 +59,7 @@ subcounty <- st_read("shapefiles/gadm36_KEN_2.shp", quiet = T)|>
 # cleaned data 
 county <- st_read("shapefiles/County.shp", quiet = T)|> 
   rename(county = Name)
+
 county_shapefile <- st_read("clean shapefiles/county_shapefile.shp", quiet = T)
 subcounty_shapefile <- st_read("clean shapefiles/subcounty_shapefile.shp", quiet = T)
 
