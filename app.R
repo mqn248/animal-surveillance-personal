@@ -208,7 +208,6 @@ ui <- fluidPage(
                 selected = T
               ),
               
-              
               # Priority diseases -------------------------------------------------------
               menuItem(
                 "Priority Diseases",
@@ -221,12 +220,6 @@ ui <- fluidPage(
                   #tabName = "ant",
                   #selected = T
                 #),
-                menuSubItem(
-                  "Anthrax",
-                  newtab = TRUE,
-                  tabName = "anthrax",
-                  selected = T
-                ),
                 
                 # African Swine Fever (ASF) ----------------------------------------------------------
                 menuSubItem(
@@ -323,22 +316,13 @@ ui <- fluidPage(
                   newtab = T,
                   tabName = "gp"
                 )
-
-              ),# priority ends
-              # Other Diseases-----------
-              menuItem(
-                'Other Diseases',
-                tabName = "other",
                 
-                menuSubItem(
-                  "Testing",
-                  newtab = TRUE,
-                  tabName = "test1",
-                  selected = T
-                )
+                
               )
-             )
+            )
           ),
+          
+          
           
           
           # Expanding the different tabs -----------------------------------------
@@ -435,78 +419,6 @@ ui <- fluidPage(
                 ))),
               
               # Bio-surveillance tab   -----------------------------------------
-              # Anthrax tab ----------------
-              tabItem(
-                tabName = "anthrax",
-                div(
-                  id = 'intro',
-                  h4(
-                    strong("Zooming in on Anthrax at national and county level"),
-                    style = "color: #27AAE1; text-align: center; margin-bottom: 10px;"
-                  )
-                ),
-                
-                # Tabpanels ---------------------------------------------------------------
-                box(
-                  title = "Anthrax",
-                  status = "primary",
-                  solidHeader = TRUE,
-                  width = 12,
-                  # Anthrax trend plot ---------------------------------------------------------------
-                  tabsetPanel(
-                    # Anthrax Disease burden ---------------------------------------------------------------
-                    tabPanel(
-                      "Disease Burden",
-                      fluidRow(
-                        column(6,
-                               h4(
-                                 strong("Disease Distribution Map"),
-                                 style = "color: black; text-align: center; margin-bottom: 10px; size: 14px"
-                               ),
-                               shinycssloaders::withSpinner(
-                                 highchartOutput(
-                                   "kenyamapanthrax",
-                                   width = "100%",
-                                   height = "600px"
-                                 )
-                               )
-                        ),
-                        column(6,
-                               h4(
-                                 strong("Trend Plot"),
-                                 style = "color: black; text-align: center; margin-bottom: 10px; size: 14px"
-                               ),
-                               pickerInput(
-                                 inputId = "indicator_picker",
-                                 label = "Select Indicator:",
-                                 choices = c("Total_Number_Risk", "Total_Vaccinated", "Total_Number_Sick"),
-                                 options = pickerOptions(container = "body", liveSearch = TRUE),
-                                 width = "100%",
-                                 selected = "Total_Number_Risk",  
-                                 multiple = TRUE 
-                               ),
-                               highchartOutput("trend_plot_anthrax"))
-                      )
-                    ),
-              # Anthrax Bar plot ----------------------------------------------------------------
-              tabPanel(
-                "Bar Plot",
-                fluidRow(
-                  column(
-                    12,
-                    dateRangeInput("date_range", "Select Date Range:",
-                                   start = "2012-07-05", end = "2024-12-31", 
-                                   min = "2012-07-05", max = "2024-12-31"),
-                    withSpinner(
-                      highchartOutput("number_anthrax", width = "100%", height = "500px")
-                    )
-                  )))
-            )# tabset panel
-          ) # box
-        ), # end anthrax
-  
-      
-            
               # African Swine Fever (ASF) tab   -----------------------------------------
               tabItem(
                 tabName = "asf",
@@ -567,7 +479,6 @@ ui <- fluidPage(
                             highchartOutput("number_asf", width = "100%", height = "500px")
                           )
                         )))
-                        ))),
                   )
                 )
               ),
@@ -1478,127 +1389,6 @@ server <- function(input,output,session) {
     })
   })
   
-  
-  #
-  #
-  #
-  # ANTHRAX -------------------------------------------------------------
-  # National/Kenya map ------------------------------------------------------
-  output$kenyamapanthrax <- renderHighchart({
-    anthrax_map <- data2 |>
-      select(county, Disease_Condition, Number_Sick)|>
-      group_by(county, Disease_Condition)|>
-      summarise(value = sum(Number_Sick, na.rm = T))|>
-      filter(Disease_Condition == "Anthrax")
-    
-    # county shapefile
-    shapefile <- jsonlite::toJSON(county_shapefile) 
-    
-    ylgn_palette <- RColorBrewer::brewer.pal(n = 9, name = "YlGn")
-    # Create stops for the color axis
-    stops <- color_stops(9, colors = ylgn_palette)
-    
-    highchart(type = "map") |>
-      hc_add_series(
-        name = "Back to main plot",
-        mapData =  shapefile,
-        data = list_parse(anthrax_map),
-        value = 'n',
-        borderWidth = 0.8,
-        nullColor = "white",
-        joinBy = "county",
-        showInLegend = FALSE,
-        borderColor = "black",
-        dataLabels = list(enabled = TRUE, format = '{point.county}'),
-        tooltip = list(
-          useHTML = TRUE,
-          headerFormat = "<p>",
-          pointFormat = paste0("<b style=\"color:#1874CD\"> Number sick:</b> {point.value:.2f}<br>"),
-          footerFormat = "</p>"
-        )
-      ) |>
-      hc_plotOptions(map = list(states = list(hover = list(color = '#FFFFFF')))) |>
-      hc_colorAxis(
-        min = min(anthrax_map$value),
-        max = max(anthrax_map$value), 
-        stops = stops  
-      ) |> 
-      hc_exporting(enabled = TRUE)
-  })
-  #Anthrax trend line --------------------------------------------------
-  filtered_data_anthrax <- reactive({
-    data <- aggregate_breed |>
-      filter(Disease_Condition == "Anthrax",
-             Report_Date >= "2012-07-05" & Report_Date <= "2024-12-31")
-    
-    data$Month <- floor_date(data$Report_Date, "month")
-    
-    # Aggregate by Month and selected indicator(s)
-    data <- data|>
-      group_by(Month) |>
-      summarise(across(input$indicator_picker, sum, na.rm = TRUE), .groups = 'drop')
-    
-    return(data)
-  })
-  
-  # Render the trend plot
-  output$trend_plot_anthrax <- renderHighchart({
-    # Get the filtered data
-    data <- filtered_data_anthrax()
-    
-    hc <- highchart() |>
-      hc_xAxis(categories = as.Date(data$Month)) |>
-      hc_yAxis(title = list(text = "Count")) |>
-      hc_title(text = "Anthrax Trend") |>
-      hc_tooltip(shared = TRUE, valueSuffix = " units") |>
-      hc_plotOptions(line = list(marker = list(enabled = TRUE)))
-    
-    # Add series for each selected indicator
-    for (indicator in input$indicator_picker) {
-      hc <- hc |>
-        hc_add_series(data = data[[indicator]], name = indicator, type = 'line')
-    }
-    
-    return(hc)
-  })
-  
-  # Anthrax bar plot ----------------------------------------------------
-  filtered_bar_data <- reactive({
-    anthrax_data <- aggregate_breed|>
-      filter(Disease_Condition == "Anthrax",
-             Report_Date >= input$date_range[1] & Report_Date <= input$date_range[2])
-    
-    # Totals for each grouping
-    total_sick <- sum(anthrax_data$Total_Number_Sick)
-    total_vaccinated <- sum(anthrax_data$Total_Vaccinated)
-    total_risk <- sum(anthrax_data$Total_Number_Risk)
-    
-    # Data for the chart
-    chart_data <- data.frame(
-      category = c("Number Sick", "Number Vaccinated", "Number at Risk"),
-      total = c(total_sick, total_vaccinated, total_risk)
-    )
-    
-    # Sort the data by total in descending order
-    chart_data <- chart_data[order(-chart_data$total),]
-    
-    return(chart_data)
-  })
-  
-  # Render the bar plot with date filter
-  output$number_anthrax <- renderHighchart({
-    chart_data <- filtered_bar_data()
-    
-    # Create the bar chart
-    highchart() |>
-      hc_chart(type = "bar") |>
-      hc_xAxis(categories = chart_data$category) |>
-      hc_add_series(name = "Sum over time ", data = chart_data$total) |>
-      hc_title(text = "Aggregated Anthrax Occurrences") |>
-      hc_yAxis(visible = FALSE) |>
-      hc_xAxis(title = list(text = "Surveillance Indicators")) |>
-      hc_tooltip(shared = TRUE, crosshairs = TRUE)
-  })
   
   # African Swine Fever (ASF) -------------------------------------------------------------
   # National/Kenya map ------------------------------------------------------
